@@ -1,4 +1,4 @@
-# Awesome HTML & CSS (Web Platform)
+# Awesome HTML & CSS (with super powers)
 
 ## HTML
 
@@ -41,14 +41,54 @@ dialog::backdrop {
 }
 ```
 
-## The `<input type="checkbox" switch />`
+## The `popover` attribute
 
-![image](https://github.com/zedix/awesome-html-css/assets/27975/f49d5d5d-5210-45f4-8b37-00514198e319)
+- [Living Standard](https://html.spec.whatwg.org/multipage/popover.html#the-popover-attribute)
+- [Popover API Demo](https://www.oidaisdes.org/popover-api-accessibility.en/)
+
+```html
+<button popovertarget="actions">Actions</button>
+<div role="menu" id="actions" popover>
+  <button role="menuitem" tabindex=-1 autofocus>Edit</button>
+  <button role="menuitem" tabindex=-1>Hide</button>
+  <button role="menuitem" tabindex=-1>Delete</button>
+</div>
+```
+
+## The `switch` attribute
+
+```html
+<input type="checkbox" switch />
+```
+
+<img src="https://github.com/zedix/awesome-html-css/assets/27975/f49d5d5d-5210-45f4-8b37-00514198e319" width="420" />
 
 - [Switch Demo (Safari 14.3)](https://nt1m.github.io/html-switch-demos/)
   - [#9546](https://github.com/whatwg/html/pull/9546#issuecomment-1865595475)
   - [#9738](https://github.com/w3c/csswg-drafts/issues/9738)
 
+
+## The `<selectmenu>` element
+
+<img src="https://github.com/zedix/awesome-html-css/assets/27975/65d2c94c-6ec2-439a-9b7e-61f9eba431d4"  />
+
+- [Open UI's <selectlist> demos](https://microsoftedge.github.io/Demos/selectlist/index.html)
+- [2023-01-06 — Advanced Form Control Styling With Selectmenu And Anchoring API](https://www.smashingmagazine.com/2023/06/advanced-form-control-styling-selectmenu-anchoring-api/)
+
+```html
+<selectmenu class="my-custom-select">
+  <div slot="button">
+    <span behavior="selected-value" slot="selected-value"></span>
+    <button behavior="button"></button>
+  </div>
+  <div slot="listbox">
+    <div popover="auto" behavior="listbox">
+       <option value="one">one</option>
+       <option value="two">two</option>
+    </div>
+  </div>
+</selectmenu>
+```
 
 ## Appendix: all HTML elements (115)
 
@@ -65,6 +105,7 @@ dialog::backdrop {
 - Custom elements (2): `<template>`, `<slot>`
 - Scripting (3): `<script>`, `<noscript>`,`<canvas>`
 - Experimental (1): `<portal>`
+- Proposed (-): [`<selectmenu>`](https://open-ui.org/components/selectlist/)
 
 > [!NOTE]
 > These last element landed in the HTML spec was the [`<search>`](https://www.scottohara.me/blog/2023/03/24/search-element.html) element, at March 24th 2023.
@@ -72,4 +113,16 @@ dialog::backdrop {
 
 ## CSS
 
+## CSS Custom Functions & Mixins
+
 - [Proposal: Custom CSS Functions & Mixins](https://github.com/w3c/csswg-drafts/labels/css-mixins)
+
+## CSS Anchor Position API
+
+- [Explainer: CSS Anchor Positioning](https://xiaochengh.github.io/Explainers/css-anchor-position/explainer.html)
+- [Spec: CSS Anchor Positioning (Editor’s Draft)](https://drafts.csswg.org/css-anchor-position-1/)
+  - [Tracking bug for implementation of Anchor Positioning feature](https://issues.chromium.org/issues/40059176)
+  - [WebKit Position](https://github.com/WebKit/standards-positions/issues/167#issuecomment-1708871010)
+  - [Mozilla Position](https://github.com/mozilla/standards-positions/issues/794)
+- [Tether elements to each other with CSS anchor positioning](https://developer.chrome.com/blog/tether-elements-to-each-other-with-css-anchor-positioning) by Jhey Tompkins (one of the spec editors)
+- [Future CSS: Anchor Positioning](https://kizu.dev/anchor-positioning-experiments/)
