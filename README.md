@@ -43,8 +43,7 @@ dialog::backdrop {
 
 ## The `popover` attribute
 
-- [Living Standard](https://html.spec.whatwg.org/multipage/popover.html#the-popover-attribute)
-- [Popover API Demo](https://www.oidaisdes.org/popover-api-accessibility.en/)
+<img src="https://github.com/zedix/awesome-html-css/assets/27975/ecc6f4f7-1488-4a90-a349-6c0b2b2457a7" />
 
 ```html
 <button popovertarget="actions">Actions</button>
@@ -54,6 +53,10 @@ dialog::backdrop {
   <button role="menuitem" tabindex=-1>Delete</button>
 </div>
 ```
+
+- [Living Standard](https://html.spec.whatwg.org/multipage/popover.html#the-popover-attribute)
+- [Popover API Demo](https://www.oidaisdes.org/popover-api-accessibility.en/)
+
 
 ## The `switch` attribute
 
@@ -125,4 +128,28 @@ dialog::backdrop {
   - [WebKit Position](https://github.com/WebKit/standards-positions/issues/167#issuecomment-1708871010)
   - [Mozilla Position](https://github.com/mozilla/standards-positions/issues/794)
 - [Tether elements to each other with CSS anchor positioning](https://developer.chrome.com/blog/tether-elements-to-each-other-with-css-anchor-positioning) by Jhey Tompkins (one of the spec editors)
-- [Future CSS: Anchor Positioning](https://kizu.dev/anchor-positioning-experiments/)
+- [2023-03-15 — Future CSS: Anchor Positioning](https://kizu.dev/anchor-positioning-experiments/)
+
+
+```css
+.anchor {
+  anchor-name: --my-anchor;
+}
+
+.tooltip {
+  anchor-default: --my-anchor;
+  position-fallback: --top-to-bottom;
+}
+
+@position-fallback --top-to-bottom {
+  @try {
+    bottom: anchor(top);
+    left: anchor(center);
+  }
+
+  @try {
+    top: anchor(bottom);
+    left: anchor(center);
+  }
+}
+```
