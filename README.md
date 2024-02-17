@@ -1,8 +1,10 @@
 # Awesome HTML & CSS (with super powers)
 
+- [Interop 2024 Dashboard](https://webkit.org/blog/14955/the-web-just-gets-better-with-interop/)
+
 ## HTML
 
-## The `<dialog>` element
+### The `<dialog>` element
 
 - [2023-01-26 — Use the dialog element (reasonably)](https://www.scottohara.me/blog/2023/01/26/use-the-dialog-element.html)
 
@@ -41,7 +43,7 @@ dialog::backdrop {
 }
 ```
 
-## The `popover` attribute
+### The `popover` attribute
 
 <img src="https://github.com/zedix/awesome-html-css/assets/27975/ecc6f4f7-1488-4a90-a349-6c0b2b2457a7" />
 
@@ -58,7 +60,7 @@ dialog::backdrop {
 - [Popover API Demo](https://www.oidaisdes.org/popover-api-accessibility.en/)
 
 
-## The `switch` attribute
+### The `switch` attribute
 
 ```html
 <input type="checkbox" switch />
@@ -71,7 +73,7 @@ dialog::backdrop {
   - [#9738](https://github.com/w3c/csswg-drafts/issues/9738)
 
 
-## The `<selectmenu>` element
+### The `<selectmenu>` element
 
 <img src="https://github.com/zedix/awesome-html-css/assets/27975/65d2c94c-6ec2-439a-9b7e-61f9eba431d4"  />
 
@@ -93,7 +95,7 @@ dialog::backdrop {
 </selectmenu>
 ```
 
-## Appendix: all HTML elements (115)
+### Appendix: all HTML elements (115)
 
 - Document element (1): `<html>`
 - Document metadata (6): `<head>`, `<title>`, `<base>`, `<link>`, `<meta>`, `<style>`,
@@ -114,13 +116,22 @@ dialog::backdrop {
 > These last element landed in the HTML spec was the [`<search>`](https://www.scottohara.me/blog/2023/03/24/search-element.html) element, at March 24th 2023.
 
 
+### HTML over the wire (instead of JSON)
+
+- [The AHA Stack](https://ahastack.dev/)
+- [htmx](https://htmx.org/)
+- [Livewire](https://livewire.laravel.com/)
+- [Hotwire](https://hotwired.dev/)
+- [Alpine](https://github.com/alpinejs/alpine)
+
+
 ## CSS
 
-## CSS Custom Functions & Mixins
+### CSS Custom Functions & Mixins
 
 - [Proposal: Custom CSS Functions & Mixins](https://github.com/w3c/csswg-drafts/labels/css-mixins)
 
-## CSS Anchor Position API
+### CSS Anchor Position API
 
 - [Explainer: CSS Anchor Positioning](https://xiaochengh.github.io/Explainers/css-anchor-position/explainer.html)
 - [Spec: CSS Anchor Positioning (Editor’s Draft)](https://drafts.csswg.org/css-anchor-position-1/)
