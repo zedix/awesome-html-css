@@ -60,7 +60,7 @@ Exclusive Accordion:
 </details>
 ```
 
-The <details> elements that are part of an exclusive accordion don't necessarily need to be siblings. They can be scattered across the document.
+The `<details>` elements that are part of an exclusive accordion don't necessarily need to be siblings. They can be scattered across the document.
 
 
 ### The `popover` attribute
