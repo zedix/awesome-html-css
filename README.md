@@ -1,6 +1,7 @@
 # Awesome HTML & CSS (with super powers)
 
 - [Interop 2024 Dashboard](https://webkit.org/blog/14955/the-web-just-gets-better-with-interop/)
+- [CSS Wrapped 2023](https://developer.chrome.com/blog/css-wrapped-2023)
 
 ## HTML
 
@@ -43,7 +44,34 @@ dialog::backdrop {
 }
 ```
 
+### The `<details>` element
+
+Exclusive Accordion:
+
+```html
+<details name="my-accordion">
+  <summary>Summary 1</summary>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+</details>
+
+<details name="my-accordion" open>
+  <summary>Summary 2</summary>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+</details>
+```
+
+The <details> elements that are part of an exclusive accordion don't necessarily need to be siblings. They can be scattered across the document.
+
+
 ### The `popover` attribute
+
+The Popover API helps you build menus, selection, and tooltips. It supports:
+
+- **Promotion to the top layer.** Popovers will appear on a separate layer above the rest of the page, so you don't have to play around with z-index.
+- **Light-dismiss functionality.** Clicking outside of the popover area will close the popover and return focus.
+- **Default focus management.** Opening the popover makes the next tab stop inside the popover.
+- **Accessible keyboard bindings.** Hitting the esc key or double toggling will close the popover and return focus.
+- **Accessible component bindings.** Connecting a popover element to a popover trigger semantically.
 
 <img src="https://github.com/zedix/awesome-html-css/assets/27975/ecc6f4f7-1488-4a90-a349-6c0b2b2457a7" />
 
@@ -71,7 +99,6 @@ dialog::backdrop {
 - [Switch Demo (Safari 14.3)](https://nt1m.github.io/html-switch-demos/)
   - [#9546](https://github.com/whatwg/html/pull/9546#issuecomment-1865595475)
   - [#9738](https://github.com/w3c/csswg-drafts/issues/9738)
-
 
 ### The `<selectmenu>` element
 
@@ -140,7 +167,7 @@ dialog::backdrop {
   - [Mozilla Position](https://github.com/mozilla/standards-positions/issues/794)
 - [Tether elements to each other with CSS anchor positioning](https://developer.chrome.com/blog/tether-elements-to-each-other-with-css-anchor-positioning) by Jhey Tompkins (one of the spec editors)
 - [2023-03-15 — Future CSS: Anchor Positioning](https://kizu.dev/anchor-positioning-experiments/)
-
+- [The `anchor` attribute](https://github.com/whatwg/html/pull/9144)
 
 ```css
 .anchor {
@@ -162,5 +189,20 @@ dialog::backdrop {
     top: anchor(bottom);
     left: anchor(center);
   }
+}
+```
+
+## CSS Scroll-Driven Animations
+
+- [CSS Scroll-triggered Animations with Style Queries](https://ryanmulligan.dev/blog/scroll-triggered-animations-style-queries/)
+- [Scroll-Driven Animations: You want overflow: clip, not overflow: hidden](https://www.bram.us/2024/02/14/scroll-driven-animations-you-want-overflow-clip-not-overflow-hidden/)
+
+## CSS Custom Highlight API
+
+- [Custom Highlight API](https://www.bram.us/2024/02/18/custom-highlight-api-for-syntax-highlighting/)
+
+```css
+::highlight(example) {
+	color: hotpink;
 }
 ```
