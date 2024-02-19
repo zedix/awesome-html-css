@@ -194,6 +194,7 @@ The Popover API helps you build menus, selection, and tooltips. It supports:
 
 ## CSS Scroll-Driven Animations
 
+- [Demos to show off Scroll-driven Animations](https://scroll-driven-animations.style/)
 - [CSS Scroll-triggered Animations with Style Queries](https://ryanmulligan.dev/blog/scroll-triggered-animations-style-queries/)
 - [Scroll-Driven Animations: You want overflow: clip, not overflow: hidden](https://www.bram.us/2024/02/14/scroll-driven-animations-you-want-overflow-clip-not-overflow-hidden/)
 
@@ -203,6 +204,22 @@ The Popover API helps you build menus, selection, and tooltips. It supports:
 
 ```css
 ::highlight(example) {
-	color: hotpink;
+  color: hotpink;
+}
+```
+
+## CSS Discrete Property Animations
+
+Ability to animate discrete animations, such as animating to and from `display: none`.
+
+```css
+.card {
+  transition: opacity 0.25s, display 0.25s;
+  transition-behavior: allow-discrete; /* Note: be sure to write this after the shorthand */
+}
+
+.card.fade-out {
+  opacity: 0;
+  display: none;
 }
 ```
