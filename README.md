@@ -1,5 +1,6 @@
 # Awesome HTML & CSS (with super powers)
 
+- [12 Days of Web](https://12daysofweb.dev/)
 - [Interop 2024 Dashboard](https://webkit.org/blog/14955/the-web-just-gets-better-with-interop/)
 - [CSS Wrapped 2023](https://developer.chrome.com/blog/css-wrapped-2023)
 
@@ -62,6 +63,8 @@ Exclusive Accordion:
 
 The `<details>` elements that are part of an exclusive accordion don't necessarily need to be siblings. They can be scattered across the document.
 
+
+- https://sport.tv2.dk/
 
 ### The `popover` attribute
 
@@ -160,14 +163,25 @@ The Popover API helps you build menus, selection, and tooltips. It supports:
 
 ### CSS Anchor Position API
 
-- [Explainer: CSS Anchor Positioning](https://xiaochengh.github.io/Explainers/css-anchor-position/explainer.html)
-- [Spec: CSS Anchor Positioning (Editor’s Draft)](https://drafts.csswg.org/css-anchor-position-1/)
+<img src="https://github.com/zedix/awesome-html-css/assets/27975/ac8ba033-5070-41eb-9a56-2a9a11a5095a" width="420" />
+
+
+- [2021-03-06 — First Proposal by Melanie Richards (Microsoft)](https://melanie-richards.com/blog/anchored-positioning/)
+- [2023-03-15 — Future CSS: Anchor Positioning](https://kizu.dev/anchor-positioning-experiments/)
+- [2023-06-29 — First Working Draft](https://www.w3.org/TR/css-anchor-position-1/)
+- [2023-12-14 — Anchor Positioning ⭐](https://12daysofweb.dev/2023/anchor-positioning/)
+- [2024-02-09 — Editor’s Draft](https://drafts.csswg.org/css-anchor-position-1/)
+  - [`inset-area` demo exploration](https://codepen.io/kizu/pen/zYMmVJd)
+  - [csswg-drafts > css-anchor-position-1](https://github.com/w3c/csswg-drafts/labels/css-anchor-position-1)
+  - [Explainer: CSS Anchor Positioning](https://xiaochengh.github.io/Explainers/css-anchor-position/explainer.html)
+  - [#9663 Better handle an inset-area edge case](https://github.com/w3c/csswg-drafts/issues/9663)
   - [Tracking bug for implementation of Anchor Positioning feature](https://issues.chromium.org/issues/40059176)
   - [WebKit Position](https://github.com/WebKit/standards-positions/issues/167#issuecomment-1708871010)
   - [Mozilla Position](https://github.com/mozilla/standards-positions/issues/794)
 - [Tether elements to each other with CSS anchor positioning](https://developer.chrome.com/blog/tether-elements-to-each-other-with-css-anchor-positioning) by Jhey Tompkins (one of the spec editors)
-- [2023-03-15 — Future CSS: Anchor Positioning](https://kizu.dev/anchor-positioning-experiments/)
-- [The `anchor` attribute](https://github.com/whatwg/html/pull/9144)
+
+<img src="https://drafts.csswg.org/css-anchor-position-1/images/inset-area-example.png" width="420" />
+
 
 ```css
 .anchor {
@@ -223,3 +237,7 @@ Ability to animate discrete animations, such as animating to and from `display: 
   display: none;
 }
 ```
+
+## CSS View Transitions
+
+- https://jakearchibald.com/2024/view-transitions-handling-aspect-ratio-changes/
