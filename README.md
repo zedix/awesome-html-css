@@ -3,6 +3,7 @@
 - [12 Days of Web](https://12daysofweb.dev/)
 - [Interop 2024 Dashboard](https://webkit.org/blog/14955/the-web-just-gets-better-with-interop/)
 - [CSS Wrapped 2023](https://developer.chrome.com/blog/css-wrapped-2023)
+- [New to the web platform](https://web.dev/blog)
 
 ## HTML
 
@@ -68,6 +69,8 @@ The `<details>` elements that are part of an exclusive accordion don't necessari
 
 ### The `popover` attribute
 
+> When specified, the element won't be rendered until it becomes shown, at which point it will be rendered on top of other page content.
+
 The Popover API helps you build menus, selection, and tooltips. It supports:
 
 - **Promotion to the top layer.** Popovers will appear on a separate layer above the rest of the page, so you don't have to play around with z-index.
@@ -90,6 +93,30 @@ The Popover API helps you build menus, selection, and tooltips. It supports:
 - [Living Standard](https://html.spec.whatwg.org/multipage/popover.html#the-popover-attribute)
 - [Popover API Demo](https://www.oidaisdes.org/popover-api-accessibility.en/)
 
+
+### The `CloseWatcher` API
+
+> "Close requests" are a new concept that encompasses user requests to close something currently open, using the Esc key on desktop or the back gesture/button on Android.
+
+- [Explainer with use cases](https://github.com/WICG/close-watcher)
+- [Close requests and close watchers](https://html.spec.whatwg.org/multipage/interaction.html#close-requests-and-close-watchers)
+
+```html
+const watcher = new CloseWatcher();
+
+// This fires when the user sends a close request, e.g. by pressing Esc on
+// desktop or by pressing Android's back button.
+watcher.onclose = () => {
+  myModal.close();
+};
+
+// You should destroy watchers which are no longer needed, e.g. if the
+// modal closes normally. This will prevent future events on this watcher.
+myModalCloseButton.onclick = () => {
+  watcher.destroy();
+  myModal.close();
+};
+```
 
 ### The `switch` attribute
 
