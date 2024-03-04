@@ -101,7 +101,7 @@ The Popover API helps you build menus, selection, and tooltips. It supports:
 - [Explainer with use cases](https://github.com/WICG/close-watcher)
 - [Close requests and close watchers](https://html.spec.whatwg.org/multipage/interaction.html#close-requests-and-close-watchers)
 
-```html
+```js
 const watcher = new CloseWatcher();
 
 // This fires when the user sends a close request, e.g. by pressing Esc on
@@ -133,7 +133,7 @@ myModalCloseButton.onclick = () => {
   - [#9546](https://github.com/whatwg/html/pull/9546#issuecomment-1865595475)
   - [#9738](https://github.com/w3c/csswg-drafts/issues/9738)
 
-### The `<selectmenu>` element
+### The `<selectlist>` element (ex `<selectmenu>`)
 
 <img src="https://github.com/zedix/awesome-html-css/assets/27975/65d2c94c-6ec2-439a-9b7e-61f9eba431d4"  />
 
@@ -141,7 +141,7 @@ myModalCloseButton.onclick = () => {
 - [2023-01-06 — Advanced Form Control Styling With Selectmenu And Anchoring API](https://www.smashingmagazine.com/2023/06/advanced-form-control-styling-selectmenu-anchoring-api/)
 
 ```html
-<selectmenu class="my-custom-select">
+<selectlist class="my-custom-select">
   <div slot="button">
     <span behavior="selected-value" slot="selected-value"></span>
     <button behavior="button"></button>
@@ -152,7 +152,7 @@ myModalCloseButton.onclick = () => {
        <option value="two">two</option>
     </div>
   </div>
-</selectmenu>
+</selectlist>
 ```
 
 ### Appendix: all HTML elements (115)
@@ -170,7 +170,7 @@ myModalCloseButton.onclick = () => {
 - Custom elements (2): `<template>`, `<slot>`
 - Scripting (3): `<script>`, `<noscript>`,`<canvas>`
 - Experimental (1): `<portal>`
-- Proposed (-): [`<selectmenu>`](https://open-ui.org/components/selectlist/)
+- Proposed (-): [`<selectlist>`](https://open-ui.org/components/selectlist/)
 
 > [!NOTE]
 > These last element landed in the HTML spec was the [`<search>`](https://www.scottohara.me/blog/2023/03/24/search-element.html) element, at March 24th 2023.
