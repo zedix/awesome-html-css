@@ -82,7 +82,7 @@ The Popover API helps you build menus, selection, and tooltips. It supports:
 <img src="https://github.com/zedix/awesome-html-css/assets/27975/ecc6f4f7-1488-4a90-a349-6c0b2b2457a7" />
 
 ```html
-<button popovertarget="actions">Actions</button>
+<button invoketarget="actions">Actions</button>
 <div role="menu" id="actions" popover>
   <button role="menuitem" tabindex=-1 autofocus>Edit</button>
   <button role="menuitem" tabindex=-1>Hide</button>
@@ -90,8 +90,32 @@ The Popover API helps you build menus, selection, and tooltips. It supports:
 </div>
 ```
 
+```css
+/* Transition to these styles on entry, and from these styles on exit */
+[popover]:popover-open {
+  opacity: 1;
+  rotate: 0turn;
+  transition: rotate .5s, opacity .5s, display .5s allow-discrete, overlay .5s allow-discrete;
+}
+
+/* Entry transition starts with these styles */
+@starting-style {
+  [popover]:popover-open {
+    opacity: 0;
+    rotate: 1turn;
+  }
+}
+
+/* Exit transition ends with these styles */
+[popover]:not(:popover-open) {
+  scale: 0;
+  transition: scale .3s, display .3s allow-discrete, overlay .3s allow-discrete;
+}
+```
+
 - [Living Standard](https://html.spec.whatwg.org/multipage/popover.html#the-popover-attribute)
 - [Popover API Demo](https://www.oidaisdes.org/popover-api-accessibility.en/)
+- [2024-03-04 — The Popover API, invokers, anchor positioning and @starting-style ✨](https://frontendmasters.com/blog/menus-toasts-and-more/)
 
 
 ### The `CloseWatcher` API
@@ -203,6 +227,8 @@ myModalCloseButton.onclick = () => {
 - [2024-02-09 — Editor’s Draft](https://drafts.csswg.org/css-anchor-position-1/)
   - [`inset-area` demo exploration](https://codepen.io/kizu/pen/zYMmVJd)
   - [csswg-drafts > css-anchor-position-1](https://github.com/w3c/csswg-drafts/labels/css-anchor-position-1)
+  - [Chromium tracking bug](https://issues.chromium.org/issues/40059176)
+  - [Mozilla tracking bug](https://bugzilla.mozilla.org/show_bug.cgi?id=1838746)
   - [Explainer: CSS Anchor Positioning](https://xiaochengh.github.io/Explainers/css-anchor-position/explainer.html)
   - [#9663 Better handle an inset-area edge case](https://github.com/w3c/csswg-drafts/issues/9663)
   - [Tracking bug for implementation of Anchor Positioning feature](https://issues.chromium.org/issues/40059176)
