@@ -156,13 +156,14 @@ myModalCloseButton.onclick = () => {
 - [Switch Demo (Safari 14.3)](https://nt1m.github.io/html-switch-demos/)
   - [#9546](https://github.com/whatwg/html/pull/9546#issuecomment-1865595475)
   - [#9738](https://github.com/w3c/csswg-drafts/issues/9738)
+- [2023-03-06 — Safari Gets a Toggle Switch Input](https://frontendmasters.com/blog/safari-gets-a-toggle-switch-input/)
 
 ### The `<selectlist>` element (ex `<selectmenu>`)
 
 <img src="https://github.com/zedix/awesome-html-css/assets/27975/65d2c94c-6ec2-439a-9b7e-61f9eba431d4"  />
 
 - [Open UI's <selectlist> demos](https://microsoftedge.github.io/Demos/selectlist/index.html)
-- [2023-01-06 — Advanced Form Control Styling With Selectmenu And Anchoring API](https://www.smashingmagazine.com/2023/06/advanced-form-control-styling-selectmenu-anchoring-api/)
+- [2023-06-01 — Advanced Form Control Styling With Selectmenu And Anchoring API](https://www.smashingmagazine.com/2023/06/advanced-form-control-styling-selectmenu-anchoring-api/)
 
 ```html
 <selectlist class="my-custom-select">
@@ -210,6 +211,11 @@ myModalCloseButton.onclick = () => {
 
 
 ## CSS
+
+### CSS `subgrid`
+
+- [CSS Subgrid](https://web.dev/articles/css-subgrid)
+- [CSS Subgrid to design advanced layouts](https://blog.logrocket.com/using-css-subgrid-design-advanced-layouts/)
 
 ### CSS Custom Functions & Mixins
 
@@ -264,9 +270,10 @@ myModalCloseButton.onclick = () => {
 
 ## CSS Scroll-Driven Animations
 
-- [Demos to show off Scroll-driven Animations](https://scroll-driven-animations.style/)
 - [CSS Scroll-triggered Animations with Style Queries](https://ryanmulligan.dev/blog/scroll-triggered-animations-style-queries/)
 - [Scroll-Driven Animations: You want overflow: clip, not overflow: hidden](https://www.bram.us/2024/02/14/scroll-driven-animations-you-want-overflow-clip-not-overflow-hidden/)
+- [Demo: show off Scroll-driven Animations](https://scroll-driven-animations.style/)
+- [Demo: CSS-Only Sticky CTA](https://x.com/jh3yy/status/1765166342502559923?s=20)
 
 ## CSS Custom Highlight API
 
@@ -297,3 +304,31 @@ Ability to animate discrete animations, such as animating to and from `display: 
 ## CSS View Transitions
 
 - https://jakearchibald.com/2024/view-transitions-handling-aspect-ratio-changes/
+
+
+## CSS Handy (Old) Things
+
+- [:any-link](https://developer.mozilla.org/en-US/docs/Web/CSS/:any-link)
+- :empty
+- :first-child
+- :focus-visible
+- :focus-within
+- accent-color
+- [aspect-ratio](https://developer.mozilla.org/en-US/docs/Web/CSS/aspect-ratio)
+- [backdrop-filter](https://developer.mozilla.org/en-US/docs/Web/CSS/backdrop-filter)
+- border-image
+- caret-color
+- columns
+- [drop-shadow()](https://developer.mozilla.org/fr/docs/Web/CSS/filter-function/drop-shadow)
+- [fit-content()](https://developer.mozilla.org/en-US/docs/Web/CSS/fit-content_function)
+- gap
+- inset
+- list-style
+- matrix3d()
+- object-fit
+- [overscroll-behavior](https://developer.mozilla.org/en-US/docs/Web/CSS/overscroll-behavior)
+- [scroll-margin](https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-margin)
+- [scroll-snap](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_scroll_snap)
+- @supports (hover)
+
+- [Above list from Adam Argyle](https://x.com/KevinJPowell/status/1766488365904392399?s=20)
