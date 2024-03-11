@@ -331,4 +331,18 @@ Ability to animate discrete animations, such as animating to and from `display: 
 - [scroll-snap](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_scroll_snap)
 - @supports (hover)
 
-- [Above list from Adam Argyle](https://x.com/KevinJPowell/status/1766488365904392399?s=20)
+
+[Above list from Adam Argyle](https://x.com/KevinJPowell/status/1766488365904392399?s=20)
+
+### CSS Tips
+
+- [Safe/unsafe alignment in CSS flexbox](https://www.stefanjudis.com/today-i-learned/safe-unsafe-alignment-in-css-flexbox/)
+
+```css
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: safe center;
+  width: 38%;
+}
+```
