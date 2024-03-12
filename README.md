@@ -1,10 +1,5 @@
 # Awesome HTML & CSS (with super powers)
 
-- [12 Days of Web](https://12daysofweb.dev/)
-- [Interop 2024 Dashboard](https://webkit.org/blog/14955/the-web-just-gets-better-with-interop/)
-- [CSS Wrapped 2023](https://developer.chrome.com/blog/css-wrapped-2023)
-- [New to the web platform](https://web.dev/blog)
-
 ## HTML
 
 ### The `<dialog>` element
@@ -286,6 +281,20 @@ myModalCloseButton.onclick = () => {
 - [Scroll-Driven Animations: You want overflow: clip, not overflow: hidden](https://www.bram.us/2024/02/14/scroll-driven-animations-you-want-overflow-clip-not-overflow-hidden/)
 - [Demo: show off Scroll-driven Animations](https://scroll-driven-animations.style/)
 - [Demo: CSS-Only Sticky CTA](https://x.com/jh3yy/status/1765166342502559923?s=20)
+- [Real World examples](https://x.com/Una/status/1767237843330433298?s=20)
+
+```css
+@keyframes slide-left {
+    from { transform: scale(0.7); }
+    to   { transform: scale(1); }
+}
+.scroll-animate-slide-left {
+    transform-origin: top right;
+    animation: slide-left ease-out both;
+    animation-timeline: view(block -64px);
+    animation-range: entry 0% entry 50%;
+}
+```
 
 ## CSS Custom Highlight API
 
@@ -358,3 +367,11 @@ Ability to animate discrete animations, such as animating to and from `display: 
   width: 38%;
 }
 ```
+
+
+## Resources
+
+- [12 Days of Web](https://12daysofweb.dev/)
+- [Interop 2024 Dashboard](https://webkit.org/blog/14955/the-web-just-gets-better-with-interop/)
+- [CSS Wrapped 2023](https://developer.chrome.com/blog/css-wrapped-2023)
+- [New to the web platform](https://web.dev/blog)
