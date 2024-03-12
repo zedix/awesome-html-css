@@ -126,6 +126,9 @@ The Popover API helps you build menus, selection, and tooltips. It supports:
 
 - [Explainer](https://open-ui.org/components/focusgroup.explainer/)
 
+![image](https://github.com/zedix/awesome-html-css/assets/27975/22648512-e7e5-46bf-90e8-62917e5e61e9)
+
+
 ### The `CloseWatcher` API
 
 > "Close requests" are a new concept that encompasses user requests to close something currently open, using the Esc key on desktop or the back gesture/button on Android.
