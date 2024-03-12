@@ -118,6 +118,14 @@ The Popover API helps you build menus, selection, and tooltips. It supports:
 - [2024-03-04 — The Popover API, invokers, anchor positioning and @starting-style ✨](https://frontendmasters.com/blog/menus-toasts-and-more/)
 
 
+### The `invoketarget` & `invokeaction` attributes
+
+- [Explainer](https://open-ui.org/components/invokers.explainer/)
+
+### The `focusgroup` attribute
+
+- [Explainer](https://open-ui.org/components/focusgroup.explainer/)
+
 ### The `CloseWatcher` API
 
 > "Close requests" are a new concept that encompasses user requests to close something currently open, using the Esc key on desktop or the back gesture/button on Android.
@@ -157,6 +165,7 @@ myModalCloseButton.onclick = () => {
   - [#9546](https://github.com/whatwg/html/pull/9546#issuecomment-1865595475)
   - [#9738](https://github.com/w3c/csswg-drafts/issues/9738)
 - [2023-03-06 — Safari Gets a Toggle Switch Input](https://frontendmasters.com/blog/safari-gets-a-toggle-switch-input/)
+
 
 ### The `<selectlist>` element (ex `<selectmenu>`)
 
