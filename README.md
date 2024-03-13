@@ -41,6 +41,9 @@ dialog::backdrop {
 }
 ```
 
+- [(Invokers Proposal) Add InvokeElement & InvokeEvent IDLs & invocation steps for Dialog & Popover](https://github.com/whatwg/html/pull/9841)
+- [Bikeshed a name for "light dismiss for dialog"](https://github.com/openui/open-ui/issues/834)
+
 ### The `<details>` element
 
 Exclusive Accordion:
@@ -115,11 +118,22 @@ The Popover API helps you build menus, selection, and tooltips. It supports:
 
 ### The `invoketarget` & `invokeaction` attributes
 
+```html
+<button invoketarget="my-dialog">This opens a dialog</button>
+<dialog id="my-dialog">This is the dialog</dialog>
+```
+
+Adding `invoketarget` and `invokeaction` attributes to `<button>` and `<input type="button">` / `<input type="reset">` elements would allow authors to assign behaviour to buttons in a more accessible and declarative way, while reducing bugs and simplifying the amount of JavaScript pages are required to ship for interactivity. Buttons with invoketarget will - when clicked, touched, or enacted via keypress - dispatch an `InvokeEvent` on the element referenced by invoketarget, with some default behaviours.
+
 - [Explainer](https://open-ui.org/components/invokers.explainer/)
+- [Invokers Proposal](https://github.com/whatwg/html/pull/9841)
+- [Intent to Prototype: Invokers (Chrome)](https://groups.google.com/a/chromium.org/g/blink-dev/c/tDanwUCp2cg)
 
 ### The `focusgroup` attribute
 
 - [Explainer](https://open-ui.org/components/focusgroup.explainer/)
+- [Issues on Open UI](https://github.com/openui/open-ui/issues?q=is%3Aissue+is%3Aopen+label%3Afocusgroup)
+- [WebKit Bugzilla URL](https://bugs.webkit.org/show_bug.cgi?id=255482)
 
 ![image](https://github.com/zedix/awesome-html-css/assets/27975/22648512-e7e5-46bf-90e8-62917e5e61e9)
 
