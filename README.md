@@ -125,6 +125,7 @@ The Popover API helps you build menus, selection, and tooltips. It supports:
 
 Adding `invoketarget` and `invokeaction` attributes to `<button>` and `<input type="button">` / `<input type="reset">` elements would allow authors to assign behaviour to buttons in a more accessible and declarative way, while reducing bugs and simplifying the amount of JavaScript pages are required to ship for interactivity. Buttons with invoketarget will - when clicked, touched, or enacted via keypress - dispatch an `InvokeEvent` on the element referenced by invoketarget, with some default behaviours.
 
+- [Can I use HTML attribute: invokeaction](https://caniuse.com/mdn-html_global_attributes_invokeaction)
 - [Explainer](https://open-ui.org/components/invokers.explainer/)
 - [Invokers Proposal](https://github.com/whatwg/html/pull/9841)
 - [Intent to Prototype: Invokers (Chrome)](https://groups.google.com/a/chromium.org/g/blink-dev/c/tDanwUCp2cg)
@@ -238,6 +239,10 @@ myModalCloseButton.onclick = () => {
 - [CSS Subgrid](https://web.dev/articles/css-subgrid)
 - [CSS Subgrid to design advanced layouts](https://blog.logrocket.com/using-css-subgrid-design-advanced-layouts/)
 
+### CSS `color-mix()`
+
+- [2024-03-08 — Creating color palettes with the CSS color-mix() function](https://developer.mozilla.org/en-US/blog/color-palettes-css-color-mix/)
+
 ### CSS Custom Functions & Mixins
 
 - [Proposal: Custom CSS Functions & Mixins](https://github.com/w3c/csswg-drafts/labels/css-mixins)
@@ -272,20 +277,27 @@ myModalCloseButton.onclick = () => {
 }
 
 .tooltip {
-  anchor-default: --my-anchor;
-  position-fallback: --top-to-bottom;
-}
+  /* Fixpos means we don’t need to worry about
+     containing block relationships;
+     the tooltip can live anywhere in the DOM. */
+  position: fixed;
 
-@position-fallback --top-to-bottom {
-  @try {
-    bottom: anchor(top);
-    left: anchor(center);
-  }
+  /* All the anchoring behavior will default to
+     referring to the --tooltip anchor. */
+  position-anchor: --tooltip;
 
-  @try {
-    top: anchor(bottom);
-    left: anchor(center);
-  }
+  /* Align the tooltip’s bottom to the top of the anchor;
+     this also defaults to horizontally center-aligning
+     the tooltip and the anchor (in horizontal writing modes). */
+  inset-area: block-start;
+
+  /* Automatically swap if this overflows the window
+    so the tooltip’s top aligns to the anchor’s bottom
+    instead. */
+  position-try: flip-block;
+
+  /* Prevent getting too wide */
+  max-inline-size: 20em;
 }
 ```
 
