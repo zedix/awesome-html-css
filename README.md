@@ -1,5 +1,8 @@
 # Awesome HTML & CSS (with super powers)
 
+> [!TIP]
+> Stop writing unnecessary, heavy, thread-blocking JavaScript — Una Kravets
+
 ## HTML
 
 ### The `<dialog>` element
