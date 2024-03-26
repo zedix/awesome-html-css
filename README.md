@@ -182,7 +182,7 @@ myModalCloseButton.onclick = () => {
 - [2023-03-06 — Safari Gets a Toggle Switch Input](https://frontendmasters.com/blog/safari-gets-a-toggle-switch-input/)
 
 
-### The `<selectlist>` element (ex `<selectmenu>`)
+### The `select v2` element (ex `<selectlist>` ⇢ ex `<selectmenu>`)
 
 <img src="https://github.com/zedix/awesome-html-css/assets/27975/65d2c94c-6ec2-439a-9b7e-61f9eba431d4"  />
 
@@ -283,6 +283,9 @@ myModalCloseButton.onclick = () => {
 
 - [2024-03-08 — Creating color palettes with the CSS color-mix() function](https://developer.mozilla.org/en-US/blog/color-palettes-css-color-mix/)
 
+### CSS Container Queries (`container-type`, `container-name`, `@container`)
+
+
 ### CSS Custom Functions & Mixins
 
 - [Proposal: Custom CSS Functions & Mixins](https://github.com/w3c/csswg-drafts/labels/css-mixins)
@@ -342,7 +345,7 @@ myModalCloseButton.onclick = () => {
 }
 ```
 
-## CSS Scroll-Driven Animations
+## CSS Scroll-Driven Animations (`view-timeline`, `animation-timeline`, `view()`)
 
 - [CSS Scroll-triggered Animations with Style Queries](https://ryanmulligan.dev/blog/scroll-triggered-animations-style-queries/)
 - [Scroll-Driven Animations: You want overflow: clip, not overflow: hidden](https://www.bram.us/2024/02/14/scroll-driven-animations-you-want-overflow-clip-not-overflow-hidden/)
@@ -441,4 +444,4 @@ Ability to animate discrete animations, such as animating to and from `display: 
 - [Interop 2024 Dashboard](https://webkit.org/blog/14955/the-web-just-gets-better-with-interop/)
 - [CSS Wrapped 2023](https://developer.chrome.com/blog/css-wrapped-2023)
 - [New to the web platform](https://web.dev/blog)
-- [Better, Faster, Stronger Web UI](https://una.github.io/better-faster-stronger-web-ui/)
+- [Better, Faster, Stronger Web UI](https://una.github.io/better-faster-stronger-web-ui/) by Una Kravets
