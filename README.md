@@ -67,7 +67,8 @@ The `<details>` elements that are part of an exclusive accordion don't necessari
 
 ### The `popover` attribute
 
-> When specified, the element won't be rendered until it becomes shown, at which point it will be rendered on top of other page content.
+> [!TIP]
+> Built-in accessibility via keyboard behavior, tab focus management, top-layer support, and (optional) light-dismiss
 
 The Popover API helps you build menus, selection, and tooltips. It supports:
 
@@ -129,6 +130,7 @@ Adding `invoketarget` and `invokeaction` attributes to `<button>` and `<input ty
 - [Explainer](https://open-ui.org/components/invokers.explainer/)
 - [Invokers Proposal](https://github.com/whatwg/html/pull/9841)
 - [Intent to Prototype: Invokers (Chrome)](https://groups.google.com/a/chromium.org/g/blink-dev/c/tDanwUCp2cg)
+- [2014-03-24 — I love invokers and you should too](https://buttondown.email/cascade/archive/018-i-love-invokers-and-you-should-too/)
 
 ### The `focusgroup` attribute
 
@@ -202,6 +204,43 @@ myModalCloseButton.onclick = () => {
 </selectlist>
 ```
 
+
+
+```html
+<selectlist>
+  <button class="action-btn" type="button">
+    <selectedoption>
+      <span class="preview-heading">Create a merge commit</span>
+      <span class="action-heading">Merge Pull Request</span>
+      <span class="description">All commits from this branch will be added to the base branch via a merge commit.</span>
+    </selectedoption>
+  </button>
+  <button class="open-list-btn" type="selectlist">
+    <span class="arrow">
+      <figure>↓</figure> <!-- should be image, using this for demo shortcut only -->
+    </span>
+  </button>
+  <listbox>
+    <option value="merge-commit">
+      <span class="preview-heading">Create a merge commit</span>
+      <span class="action-heading">Merge Pull Request</span>
+      <span class="description">All commits from this branch will be added to the base branch via a merge commit.</span>
+    </option>
+    <option value="squash-merge">
+      <span class="preview-heading">Squash and merge</span>
+      <span class="action-heading">Squash and merge</span>
+      <span class="description">The 1 commit from this branch will be added to the base branch.</span>
+    </option>
+    <option value="rebase-merge">
+      <span class="preview-heading">Rebase and merge</span>
+      <span class="action-heading">Rebase and merge</span>
+      <span class="description">The 1 commit from this branch will be rebased and added to the base branch.</span>
+    </option>
+  </listbox>
+</selectlist>
+```
+
+
 ### Appendix: all HTML elements (115)
 
 - Document element (1): `<html>`
@@ -257,6 +296,7 @@ myModalCloseButton.onclick = () => {
 - [2023-06-29 — First Working Draft](https://www.w3.org/TR/css-anchor-position-1/)
 - [2023-12-14 — Anchor Positioning ⭐](https://12daysofweb.dev/2023/anchor-positioning/)
 - [2024-02-09 — Editor’s Draft](https://drafts.csswg.org/css-anchor-position-1/)
+  - [Una's demo](https://una.github.io/anchor-tool/)
   - [`inset-area` demo exploration](https://codepen.io/kizu/pen/zYMmVJd)
   - [csswg-drafts > css-anchor-position-1](https://github.com/w3c/csswg-drafts/labels/css-anchor-position-1)
   - [Chromium tracking bug](https://issues.chromium.org/issues/40059176)
@@ -394,10 +434,10 @@ Ability to animate discrete animations, such as animating to and from `display: 
 }
 ```
 
-
 ## Resources
 
 - [12 Days of Web](https://12daysofweb.dev/)
 - [Interop 2024 Dashboard](https://webkit.org/blog/14955/the-web-just-gets-better-with-interop/)
 - [CSS Wrapped 2023](https://developer.chrome.com/blog/css-wrapped-2023)
 - [New to the web platform](https://web.dev/blog)
+- [Better, Faster, Stronger Web UI](https://una.github.io/better-faster-stronger-web-ui/)
