@@ -70,7 +70,7 @@ The `<details>` elements that are part of an exclusive accordion don't necessari
 
 ### The `popover` attribute
 
-> [!TIP]
+> [!NOTE]
 > Built-in accessibility via keyboard behavior, tab focus management, top-layer support, and (optional) light-dismiss
 
 The Popover API helps you build menus, selection, and tooltips. It supports:
@@ -189,11 +189,13 @@ myModalCloseButton.onclick = () => {
 
 <img src="https://github.com/zedix/awesome-html-css/assets/27975/65d2c94c-6ec2-439a-9b7e-61f9eba431d4"  />
 
+- [Open UI's explainer](https://open-ui.org/components/selectlist/)
+- [Open UI's issues](https://github.com/openui/open-ui/issues?q=is%3Aopen+is%3Aissue+label%3Aselect-v2)
 - [Open UI's <selectlist> demos](https://microsoftedge.github.io/Demos/selectlist/index.html)
 - [2023-06-01 — Advanced Form Control Styling With Selectmenu And Anchoring API](https://www.smashingmagazine.com/2023/06/advanced-form-control-styling-selectmenu-anchoring-api/)
 
 ```html
-<selectlist class="my-custom-select">
+<select class="my-custom-select">
   <div slot="button">
     <span behavior="selected-value" slot="selected-value"></span>
     <button behavior="button"></button>
@@ -204,14 +206,14 @@ myModalCloseButton.onclick = () => {
        <option value="two">two</option>
     </div>
   </div>
-</selectlist>
+</select>
 ```
 
 ![image](https://github.com/zedix/awesome-html-css/assets/27975/5fbbd69c-c1fe-4b7b-b165-77023eb6a578)
 
 
 ```html
-<selectlist>
+<select>
   <button class="action-btn" type="button">
     <selectedoption>
       <span class="preview-heading">Create a merge commit</span>
@@ -241,7 +243,7 @@ myModalCloseButton.onclick = () => {
       <span class="description">The 1 commit from this branch will be rebased and added to the base branch.</span>
     </option>
   </listbox>
-</selectlist>
+</select>
 ```
 
 
@@ -260,7 +262,6 @@ myModalCloseButton.onclick = () => {
 - Custom elements (2): `<template>`, `<slot>`
 - Scripting (3): `<script>`, `<noscript>`,`<canvas>`
 - Experimental (1): `<portal>`
-- Proposed (-): [`<selectlist>`](https://open-ui.org/components/selectlist/)
 
 > [!NOTE]
 > These last element landed in the HTML spec was the [`<search>`](https://www.scottohara.me/blog/2023/03/24/search-element.html) element, at March 24th 2023.
