@@ -189,8 +189,10 @@ myModalCloseButton.onclick = () => {
 
 <img src="https://github.com/zedix/awesome-html-css/assets/27975/65d2c94c-6ec2-439a-9b7e-61f9eba431d4"  />
 
-- [Open UI's explainer](https://open-ui.org/components/selectlist/)
-- [Open UI's issues](https://github.com/openui/open-ui/issues?q=is%3Aopen+is%3Aissue+label%3Aselect-v2)
+- [whatwg: Stylable <select> element](https://github.com/whatwg/html/issues/9799)
+- [Open UI's explainer](https://open-ui.org/components/selectlist)
+- [Open UI's design decisions](https://open-ui.org/components/selectlist/#design-decisions)
+- [Open UI's issues](https://github.com/openui/open-ui/issues?q=is%3Aissue+is%3Aopen+label%3Aselect)
 - [Open UI's <selectlist> demos](https://microsoftedge.github.io/Demos/selectlist/index.html)
 - [2023-06-01 — Advanced Form Control Styling With Selectmenu And Anchoring API](https://www.smashingmagazine.com/2023/06/advanced-form-control-styling-selectmenu-anchoring-api/)
 
@@ -262,6 +264,7 @@ myModalCloseButton.onclick = () => {
 - Custom elements (2): `<template>`, `<slot>`
 - Scripting (3): `<script>`, `<noscript>`,`<canvas>`
 - Experimental (1): `<portal>`
+- Proposed (-): [`<selectedoption>`](https://open-ui.org/components/selectlist/)
 
 > [!NOTE]
 > These last element landed in the HTML spec was the [`<search>`](https://www.scottohara.me/blog/2023/03/24/search-element.html) element, at March 24th 2023.
