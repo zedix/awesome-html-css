@@ -93,6 +93,10 @@ The Popover API helps you build menus, selection, and tooltips. It supports:
 </div>
 ```
 
+Progressively-enhanced entry/exit animation to your popovers or dialogs:
+- [Entry/exit animation code (1)](https://nerdy.dev/steal-this-popover-starter-kit)
+- [Entry/exit animation code (2)](https://x.com/Una/status/1777735424850497799)
+
 ```css
 /* Transition to these styles on entry, and from these styles on exit */
 [popover]:popover-open {
@@ -309,6 +313,7 @@ myModalCloseButton.onclick = () => {
 - [2023-06-29 — First Working Draft](https://www.w3.org/TR/css-anchor-position-1/)
 - [2023-12-14 — Anchor Positioning ⭐](https://12daysofweb.dev/2023/anchor-positioning/)
 - [2024-02-09 — Editor’s Draft](https://drafts.csswg.org/css-anchor-position-1/)
+- [2024-04-12 — Chromium Intent to Ship: CSS Anchor Positioning](https://groups.google.com/a/chromium.org/g/blink-dev/c/jGTYNuidPRs/m/-jB4agJ7AAAJ)
   - [Una's demo](http://anchor-tool.com/)
   - [`inset-area` demo exploration](https://codepen.io/kizu/pen/zYMmVJd)
   - [csswg-drafts > css-anchor-position-1](https://github.com/w3c/csswg-drafts/labels/css-anchor-position-1)
@@ -364,6 +369,16 @@ Update April 2024: here is all the [code](https://codepen.io/una/pen/YzgOoLb) yo
   position-try-options: flip-block;
   /*  Center the anchor with justification  */
   justify-self: anchor-center;
+}
+```
+
+- [3 lines of CSS to make your tooltips/menus stay in view 🤯](https://x.com/jh3yy/status/1778946758510260727)
+
+```css
+[popover] {
+  top: anchor(top);
+  left: anchor(right);
+  position-try-options: flip-block, flip-inline;
 }
 ```
 
@@ -467,3 +482,4 @@ Ability to animate discrete animations, such as animating to and from `display: 
 - [CSS Wrapped 2023](https://developer.chrome.com/blog/css-wrapped-2023)
 - [New to the web platform](https://web.dev/blog)
 - [Better, Faster, Stronger Web UI](https://una.github.io/better-faster-stronger-web-ui/) by Una Kravets
+- [Modern CSS patterns in Campfire](https://dev.37signals.com/modern-css-patterns-and-techniques-in-campfire/)
