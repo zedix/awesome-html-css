@@ -314,7 +314,8 @@ myModalCloseButton.onclick = () => {
 - [2023-12-14 — Anchor Positioning ⭐](https://12daysofweb.dev/2023/anchor-positioning/)
 - [2024-02-09 — Editor’s Draft](https://drafts.csswg.org/css-anchor-position-1/)
 - [2024-04-12 — Chromium Intent to Ship: CSS Anchor Positioning](https://groups.google.com/a/chromium.org/g/blink-dev/c/jGTYNuidPRs/m/-jB4agJ7AAAJ)
-  - [Una's demo](http://anchor-tool.com/)
+  - [Una's anchor-tool](http://anchor-tool.com/)
+  - [Una's bunch of demos](https://codepen.io/collection/ExkRWw?grid_type=grid)
   - [`inset-area` demo exploration](https://codepen.io/kizu/pen/zYMmVJd)
   - [csswg-drafts > css-anchor-position-1](https://github.com/w3c/csswg-drafts/labels/css-anchor-position-1)
   - [Chromium tracking bug](https://issues.chromium.org/issues/40059176)
@@ -472,6 +473,14 @@ Ability to animate discrete animations, such as animating to and from `display: 
   flex-direction: column;
   align-items: safe center;
   width: 38%;
+}
+```
+
+- [The Complex But Awesome CSS border-image Property](https://www.smashingmagazine.com/2024/01/css-border-image-property/)
+
+```css
+.overlay {
+  border-image: fill 0 linear-gradient(#0003, #000);
 }
 ```
 
