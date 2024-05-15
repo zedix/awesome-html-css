@@ -1,5 +1,7 @@
 # Awesome HTML & CSS (with super powers)
 
+- [Web Platform Status](https://webstatus.dev/)
+
 > [!TIP]
 > Stop writing unnecessary, heavy, thread-blocking JavaScript — Una Kravets
 
@@ -122,6 +124,7 @@ Progressively-enhanced entry/exit animation to your popovers or dialogs:
 
 - [Living Standard](https://html.spec.whatwg.org/multipage/popover.html#the-popover-attribute)
 - [Popover API Demo](https://www.oidaisdes.org/popover-api-accessibility.en/)
+- [2024-03-21 — On popover accessibility: what the browser does and doesn’t do ](https://hidde.blog/popover-accessibility/)
 - [2024-03-04 — The Popover API, invokers, anchor positioning and @starting-style ✨](https://frontendmasters.com/blog/menus-toasts-and-more/)
 
 
@@ -492,3 +495,4 @@ Ability to animate discrete animations, such as animating to and from `display: 
 - [New to the web platform](https://web.dev/blog)
 - [Better, Faster, Stronger Web UI](https://una.github.io/better-faster-stronger-web-ui/) by Una Kravets
 - [Modern CSS patterns in Campfire](https://dev.37signals.com/modern-css-patterns-and-techniques-in-campfire/)
+- [Write better CSS with modern CSS](https://css-tip.com/better-modern-css/)
