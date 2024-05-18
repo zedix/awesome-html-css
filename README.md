@@ -1,5 +1,6 @@
 # Awesome HTML & CSS (with super powers)
 
+- [Web Platform Baseline](https://web.dev/baseline)
 - [Web Platform Status](https://webstatus.dev/)
 
 > [!TIP]
@@ -496,3 +497,13 @@ Ability to animate discrete animations, such as animating to and from `display: 
 - [Better, Faster, Stronger Web UI](https://una.github.io/better-faster-stronger-web-ui/) by Una Kravets
 - [Modern CSS patterns in Campfire](https://dev.37signals.com/modern-css-patterns-and-techniques-in-campfire/)
 - [Write better CSS with modern CSS](https://css-tip.com/better-modern-css/)
+- [The latest in Web UI (Google I/O ‘24)](https://www.youtube.com/watch?v=_-6LgEjEyzE)
+
+
+
+## UI Kit
+
+- `<dialog>`: modal content, sidebars
+- `<details>`: accordions, disclosures
+- `popover`: menus, custom toast notifications, content pickers
+- `anchor`: tooltips
