@@ -56,6 +56,7 @@ dialog::backdrop {
 - [(Invokers Proposal) Add InvokeElement & InvokeEvent IDLs & invocation steps for Dialog & Popover](https://github.com/whatwg/html/pull/9841)
 - [Bikeshed a name for "light dismiss for dialog"](https://github.com/openui/open-ui/issues/834)
 - [Consider preventing page scroll when modal dialog is visible](https://github.com/whatwg/html/issues/7732)
+- [Entry/Exit <dialog> animation 2024](https://codepen.io/jh3y/pen/LYoZWmJ)
 
 ### The `<details>` element
 
@@ -131,6 +132,7 @@ Progressively-enhanced entry/exit animation to your popovers or dialogs:
 
 - [Living Standard](https://html.spec.whatwg.org/multipage/popover.html#the-popover-attribute)
 - [Popover API Demo](https://www.oidaisdes.org/popover-api-accessibility.en/)
+- [2024 Dropdown Menu with Popover and Anchor Pos (Floating UI fallback)](https://codepen.io/jh3y/pen/xxNZXMO)
 - [2024-03-21 — On popover accessibility: what the browser does and doesn’t do ](https://hidde.blog/popover-accessibility/)
 - [2024-03-04 — The Popover API, invokers, anchor positioning and @starting-style ✨](https://frontendmasters.com/blog/menus-toasts-and-more/)
 
@@ -504,7 +506,7 @@ Ability to animate discrete animations, such as animating to and from `display: 
 - [Modern CSS patterns in Campfire](https://dev.37signals.com/modern-css-patterns-and-techniques-in-campfire/)
 - [Write better CSS with modern CSS](https://css-tip.com/better-modern-css/)
 - [The latest in Web UI (Google I/O ‘24)](https://www.youtube.com/watch?v=_-6LgEjEyzE)
-
+- [Adam Argyle blog](https://nerdy.dev/)
 
 
 ## UI Kit
