@@ -6,6 +6,12 @@
 > [!TIP]
 > Stop writing unnecessary, heavy, thread-blocking JavaScript — Una Kravets
 
+
+> [!TIP]
+> With all the new web features right on their way (view-transitions, @​starting-style, calc-size(), speculation rules, style and container queries, relative color syntax, ... the list goes on and on), it's time to face it... 🫣👇 — Stefan Judis
+
+<img src="https://pbs.twimg.com/media/GP8PXZBXsAAnFP_?format=jpg&name=large" height="280" />
+
 ## HTML
 
 ### The `<dialog>` element
