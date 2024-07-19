@@ -6,6 +6,8 @@
 > [!TIP]
 > Stop writing unnecessary, heavy, thread-blocking JavaScript — Una Kravets
 
+> [!TIP]
+> CSS is now the most powerful design toll for the web — [Matthias Ott](https://youtu.be/su6WA0kUUJE?t=340)
 
 > [!TIP]
 > With all the new web features right on their way (view-transitions, @​starting-style, calc-size(), speculation rules, style and container queries, relative color syntax, ... the list goes on and on), it's time to face it... 🫣👇 — <a href="https://x.com/stefanjudis/status/1801176094243991995">Stefan Judis</a>
@@ -78,6 +80,23 @@ The `<details>` elements that are part of an exclusive accordion don't necessari
 
 
 - https://sport.tv2.dk/
+- [Animated exclusive accordions with CSS](https://x.com/jh3yy/status/1812966924294238558)
+- https://x.com/JoshWComeau/status/1810327228477055133
+> 🔥 It feels like magic, but the `<details>` element will automatically expand when a search result is hidden within.
+
+
+```css
+details::details-content {
+  --open-close-duration: 500ms;
+  height: 0;
+  overflow: hidden;
+  transition: height var(--open-close-duration), content-visibility var(--open-close-duration) allow-discrete;
+}
+
+details[open]::details-content {
+  height: calc-size(max-content);
+}
+```
 
 ### The `popover` attribute
 
