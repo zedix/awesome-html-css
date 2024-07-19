@@ -7,7 +7,7 @@
 > Stop writing unnecessary, heavy, thread-blocking JavaScript — Una Kravets
 
 > [!TIP]
-> CSS is now the most powerful design toll for the web — [Matthias Ott](https://youtu.be/su6WA0kUUJE?t=340)
+> CSS is now the most powerful design tool for the Web — [Matthias Ott](https://youtu.be/su6WA0kUUJE?t=340)
 
 > [!TIP]
 > With all the new web features right on their way (view-transitions, @​starting-style, calc-size(), speculation rules, style and container queries, relative color syntax, ... the list goes on and on), it's time to face it... 🫣👇 — <a href="https://x.com/stefanjudis/status/1801176094243991995">Stefan Judis</a>
