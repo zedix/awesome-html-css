@@ -156,7 +156,33 @@ Progressively-enhanced entry/exit animation to your popovers or dialogs:
 - [2024-03-04 — The Popover API, invokers, anchor positioning and @starting-style ✨](https://frontendmasters.com/blog/menus-toasts-and-more/)
 
 
-### The `interesttarget`, `invoketarget` & `invokeaction` attributes
+### The `commandfor` & `command` attributes (Invoker Commands)
+
+New syntax:
+
+```html
+<button commandfor="my-modal" command="showModal">Trigger dialog</button>
+<dialog id="my-modal">This is my dialog</dialog>
+```
+
+```html
+<div class="counter">
+  <button commandfor="num" command="stepDown">-</button>
+  <input type="number" min="1" id="num" value="1">
+  <button commandfor="num" id="btn" command="stepUp">+</button>
+</div>
+```
+
+- [2014-07-15 — An update on invokers: Invoker commands in HTML](https://utilitybend.com/blog/an-update-on-invokers-invoker-commands-in-html)
+- [2014-03-24 — I love invokers and you should too](https://buttondown.email/cascade/archive/018-i-love-invokers-and-you-should-too/)
+- [Full list of built-in commands](https://open-ui.org/components/invokers.explainer/#defaults)
+- [Can I use HTML attribute: invokeaction](https://caniuse.com/mdn-html_global_attributes_invokeaction)
+- [Explainer](https://open-ui.org/components/invokers.explainer/)
+- [Invokers Proposal](https://github.com/whatwg/html/pull/9841)
+- [Intent to Prototype: Invokers (Chrome)](https://groups.google.com/a/chromium.org/g/blink-dev/c/tDanwUCp2cg)
+- [Ship Invokers proposal to all major browsers (Nov 2023)](https://www.keithcirkel.co.uk/working-on/#ship-invokers-proposal-to-all-major-browsers)
+
+Old syntax:
 
 ```html
 <button invoketarget="my-dialog">This opens a dialog</button>
@@ -165,12 +191,6 @@ Progressively-enhanced entry/exit animation to your popovers or dialogs:
 
 Adding `invoketarget` and `invokeaction` attributes to `<button>` and `<input type="button">` / `<input type="reset">` elements would allow authors to assign behaviour to buttons in a more accessible and declarative way, while reducing bugs and simplifying the amount of JavaScript pages are required to ship for interactivity. Buttons with invoketarget will - when clicked, touched, or enacted via keypress - dispatch an `InvokeEvent` on the element referenced by invoketarget, with some default behaviours.
 
-- [Can I use HTML attribute: invokeaction](https://caniuse.com/mdn-html_global_attributes_invokeaction)
-- [Explainer](https://open-ui.org/components/invokers.explainer/)
-- [Invokers Proposal](https://github.com/whatwg/html/pull/9841)
-- [Intent to Prototype: Invokers (Chrome)](https://groups.google.com/a/chromium.org/g/blink-dev/c/tDanwUCp2cg)
-- [Ship Invokers proposal to all major browsers (Nov 2023)](https://www.keithcirkel.co.uk/working-on/#ship-invokers-proposal-to-all-major-browsers)
-- [2014-03-24 — I love invokers and you should too](https://buttondown.email/cascade/archive/018-i-love-invokers-and-you-should-too/)
 
 ### The `focusgroup` attribute
 
@@ -232,6 +252,7 @@ myModalCloseButton.onclick = () => {
 - [Open UI's issues](https://github.com/openui/open-ui/issues?q=is%3Aissue+is%3Aopen+label%3Aselect)
 - [Open UI's `<selectlist>` demos](https://microsoftedge.github.io/Demos/selectlist/index.html)
 - [2023-06-01 — Advanced Form Control Styling With Selectmenu And Anchoring API](https://www.smashingmagazine.com/2023/06/advanced-form-control-styling-selectmenu-anchoring-api/)
+- [2023-07-25 — Demo examples](https://codepen.io/collection/BNZjPe)
 
 ```html
 <select class="my-custom-select">
@@ -526,6 +547,7 @@ Ability to animate discrete animations, such as animating to and from `display: 
 - [Write better CSS with modern CSS](https://css-tip.com/better-modern-css/)
 - [The latest in Web UI (Google I/O ‘24)](https://www.youtube.com/watch?v=_-6LgEjEyzE)
 - [Adam Argyle blog](https://nerdy.dev/)
+- [Transition to `height: auto` & `display: none` Using Pure CSS](https://blog.css-weekly.com/transition-to-height-auto-display-none-using-pure-css)
 
 
 ## UI Kit
