@@ -240,7 +240,7 @@ myModalCloseButton.onclick = () => {
 - [2023-03-06 — Safari Gets a Toggle Switch Input](https://frontendmasters.com/blog/safari-gets-a-toggle-switch-input/)
 
 
-### The `select v2` element (ex `<selectlist>` ⇢ ex `<selectmenu>`)
+### The `Customizable <select>` (ex `<selectlist>` ⇢ ex `<selectmenu>` ⇢ ex `<select> v2`)
 
 <img src="https://github.com/zedix/awesome-html-css/assets/27975/65d2c94c-6ec2-439a-9b7e-61f9eba431d4"  />
 
@@ -251,7 +251,7 @@ myModalCloseButton.onclick = () => {
 - [Open UI's `<selectlist>` demos](https://microsoftedge.github.io/Demos/selectlist/index.html)
 - [2023-06-01 — Advanced Form Control Styling With Selectmenu And Anchoring API](https://www.smashingmagazine.com/2023/06/advanced-form-control-styling-selectmenu-anchoring-api/)
 - [2023-07-25 — Demo examples](https://codepen.io/collection/BNZjPe)
-- [2024-09-19 — Custom <select> boilerplate + transitions](https://nerdy.dev/custom-select-with-transitions-boilerplate)
+- [2024-09-19 — Custom `<select>` boilerplate + transitions](https://nerdy.dev/custom-select-with-transitions-boilerplate)
 
 ```html
 <select class="my-custom-select">
