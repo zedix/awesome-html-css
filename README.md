@@ -78,10 +78,10 @@ Exclusive Accordion:
 
 The `<details>` elements that are part of an exclusive accordion don't necessarily need to be siblings. They can be scattered across the document.
 
-
-- https://sport.tv2.dk/
-- [Animated exclusive accordions with CSS](https://x.com/jh3yy/status/1812966924294238558)
-- https://x.com/JoshWComeau/status/1810327228477055133
+- [Real-World sidebar build with `<dialog>`/`<details`>](https://sport.tv2.dk/)
+- [2024-07-15 — Animated exclusive accordions with CSS](https://x.com/jh3yy/status/1812966924294238558)
+- [2024-09-25 — Open & Close Transitions with `<details>`](https://nerdy.dev/open-and-close-transitions-for-the-details-element)
+- [2024-07-08 — Comeau tweet on `<details>`](https://x.com/JoshWComeau/status/1810327228477055133)
 > 🔥 It feels like magic, but the `<details>` element will automatically expand when a search result is hidden within.
 
 
@@ -173,8 +173,8 @@ New syntax:
 </div>
 ```
 
-- [2014-07-15 — An update on invokers: Invoker commands in HTML](https://utilitybend.com/blog/an-update-on-invokers-invoker-commands-in-html)
-- [2014-03-24 — I love invokers and you should too](https://buttondown.email/cascade/archive/018-i-love-invokers-and-you-should-too/)
+- [2024-07-15 — An update on invokers: Invoker commands in HTML](https://utilitybend.com/blog/an-update-on-invokers-invoker-commands-in-html)
+- [2024-03-24 — I love invokers and you should too](https://buttondown.email/cascade/archive/018-i-love-invokers-and-you-should-too/)
 - [Full list of built-in commands](https://open-ui.org/components/invokers.explainer/#defaults)
 - [Can I use HTML attribute: invokeaction](https://caniuse.com/mdn-html_global_attributes_invokeaction)
 - [Explainer](https://open-ui.org/components/invokers.explainer/)
@@ -246,13 +246,14 @@ myModalCloseButton.onclick = () => {
 
 <img src="https://github.com/zedix/awesome-html-css/assets/27975/65d2c94c-6ec2-439a-9b7e-61f9eba431d4"  />
 
-- [whatwg: Stylable `<select>` element](https://github.com/whatwg/html/issues/9799)
+- [WHATWG Stage 1: Stylable `<select>` element](https://github.com/whatwg/html/issues/9799)
 - [Open UI's explainer](https://open-ui.org/components/selectlist)
 - [Open UI's design decisions](https://open-ui.org/components/selectlist/#design-decisions)
 - [Open UI's issues](https://github.com/openui/open-ui/issues?q=is%3Aissue+is%3Aopen+label%3Aselect)
 - [Open UI's `<selectlist>` demos](https://microsoftedge.github.io/Demos/selectlist/index.html)
 - [2023-06-01 — Advanced Form Control Styling With Selectmenu And Anchoring API](https://www.smashingmagazine.com/2023/06/advanced-form-control-styling-selectmenu-anchoring-api/)
 - [2023-07-25 — Demo examples](https://codepen.io/collection/BNZjPe)
+- [2024-09-19 — Custom <select> boilerplate + transitions](https://nerdy.dev/custom-select-with-transitions-boilerplate)
 
 ```html
 <select class="my-custom-select">
