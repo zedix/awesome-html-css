@@ -242,7 +242,8 @@ myModalCloseButton.onclick = () => {
 
 ### The `Customizable <select>` (ex `<selectlist>` ⇢ ex `<selectmenu>` ⇢ ex `<select> v2`)
 
-<img src="https://github.com/zedix/awesome-html-css/assets/27975/65d2c94c-6ec2-439a-9b7e-61f9eba431d4"  />
+<img height="260" src="https://github.com/user-attachments/assets/28975bd5-5cbc-464d-8217-7479f271a317" />
+<img height="260" src="https://github.com/user-attachments/assets/9554f86c-7868-4db5-9e91-20b642f0bbca" />
 
 - [WHATWG Stage 1: Stylable `<select>` element](https://github.com/whatwg/html/issues/9799)
 - [Open UI's explainer](https://open-ui.org/components/selectlist)
