@@ -1,5 +1,6 @@
 # Awesome HTML & CSS (with super powers)
 
+- [Web Platform Explorer](https://web-platform-dx.github.io/web-features-explorer/)
 - [Web Platform Baseline](https://web.dev/baseline)
 - [Web Platform Status](https://webstatus.dev/)
 
