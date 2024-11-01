@@ -90,7 +90,7 @@ The `<details>` elements that are part of an exclusive accordion don't necessari
 - [2024-07-15 — Animated exclusive accordions with CSS](https://x.com/jh3yy/status/1812966924294238558)
 - [2024-09-25 — Open & Close Transitions with `<details>`](https://nerdy.dev/open-and-close-transitions-for-the-details-element)
 - [#9951 — ::details-content vs details::part(content)](https://github.com/w3c/csswg-drafts/issues/9951#issuecomment-1997916879) - Exposing the shadow tree could lead to UAs being restricted in how they can change the component in the future
-- [#9879 — Improve styling of <details>/<summary> elements](https://github.com/w3c/csswg-drafts/issues/9879#issuecomment-2121658036)
+- [#9879 — Improve styling of `<details>`/`<summary>` elements](https://github.com/w3c/csswg-drafts/issues/9879#issuecomment-2121658036)
 
 ```css
 details::details-content {
