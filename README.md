@@ -379,14 +379,18 @@ figure {
 - [CSS Style Container Queries (custom properties) #828](https://github.com/web-platform-tests/interop/issues/828)
 - [#10744 Allow applying style rules to the container itself](https://github.com/w3c/csswg-drafts/issues/10744)
 
-### CSS `if()` (inline conditionals on custom properties / self-styling feature)
+### CSS `if()` notation (inline conditionals on custom properties / self-styling feature)
 
+- [CSS Values and Units Module Level 5](https://www.w3.org/TR/css-values-5/)
 - [#10064 [css-values-5] What is the MVP for inline conditionals on custom properties? 🔥](https://github.com/w3c/csswg-drafts/issues/10064)
 
 ```css
 zx-tag {
-  /* if(container-query(): foo; else: bar) */
-  background-color: if((--variant: success) green; else: white)
+  /* if(condition(): foo; else: bar) */
+  background-color: if(
+    (--variant: success): green;
+    else: white;
+  );
 }
 ```
 
