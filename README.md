@@ -359,6 +359,36 @@ myModalCloseButton.onclick = () => {
 
 ### CSS Container Queries (`container-type`, `container-name`, `@container`)
 
+### CSS Style Queries
+
+```css
+figure {
+  container-name: figure;
+  --featured: true;
+}
+
+@container figure style(--featured: true) {
+  figcaption {
+    /* Custom styling */
+  }
+}
+```
+
+- [Container Style Query Explainer](https://css.oddbird.net/rwd/style/explainer/) by Miriam Suzanne
+- [CSS Style Queries Use Cases](https://ishadeed.com/article/css-container-style-queries/)
+- [CSS Style Container Queries (custom properties) #828](https://github.com/web-platform-tests/interop/issues/828)
+- [#10744 Allow applying style rules to the container itself](https://github.com/w3c/csswg-drafts/issues/10744)
+
+### CSS `if()` (inline conditionals on custom properties / self-styling feature)
+
+- [#10064 [css-values-5] What is the MVP for inline conditionals on custom properties? 🔥](https://github.com/w3c/csswg-drafts/issues/10064)
+
+```css
+zx-tag {
+  /* if(container-query(): foo; else: bar) */
+  background-color: if((--variant: success) green; else: white)
+}
+```
 
 ### CSS Custom Functions & Mixins
 
