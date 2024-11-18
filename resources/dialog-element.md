@@ -14,7 +14,8 @@
 
 
 ```html
-<dialog open>
+<button type="button" command="show-modal" commandfor="my-dialog">☰</button>
+<dialog id="my-dialog" closedby="any">
   <!-- This form will close its dialog when submitted -->
   <form method="dialog">
     <header>
@@ -42,3 +43,4 @@ dialog::backdrop {
 - [Bikeshed a name for "light dismiss for dialog"](https://github.com/openui/open-ui/issues/834)
 - [Consider preventing page scroll when modal dialog is visible](https://github.com/whatwg/html/issues/7732)
 - [Entry/Exit <dialog> animation 2024](https://codepen.io/jh3y/pen/LYoZWmJ)
+- [Dialog light dismiss behavior: `closedby` attribute / `requestClose`](https://github.com/whatwg/html/pull/10737)

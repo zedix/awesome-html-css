@@ -49,8 +49,10 @@ Progressively-enhanced entry/exit animation to your popovers or dialogs:
 }
 ```
 
+
 - [Living Standard](https://html.spec.whatwg.org/multipage/popover.html#the-popover-attribute)
 - [Popover API Demo](https://www.oidaisdes.org/popover-api-accessibility.en/)
+- [2024-10-12 — Web components + anchor positioning + popover API = I love the platform](https://jschof.dev/posts/2024/9/love-letter-to-the-platform/)
 - [2024 Dropdown Menu with Popover and Anchor Pos (Floating UI fallback)](https://codepen.io/jh3y/pen/xxNZXMO)
 - [2024-03-21 — On popover accessibility: what the browser does and doesn’t do ](https://hidde.blog/popover-accessibility/)
 - [2024-03-04 — The Popover API, invokers, anchor positioning and @starting-style ✨](https://frontendmasters.com/blog/menus-toasts-and-more/)

@@ -5,7 +5,7 @@
 - [Web Platform Status](https://webstatus.dev/)
 
 > [!TIP]
-> Stop writing unnecessary, heavy, thread-blocking JavaScript — Una Kravets
+> Stop writing unnecessary, heavy, thread-blocking JavaScript — [Una Kravets](https://una.github.io/better-faster-stronger-web-ui/)
 
 > [!TIP]
 > CSS is now the most powerful design tool for the Web — [Matthias Ott](https://youtu.be/su6WA0kUUJE?t=340)
@@ -129,9 +129,6 @@ zx-tag {
   - [WebKit Position](https://github.com/WebKit/standards-positions/issues/167#issuecomment-1708871010)
   - [Mozilla Position](https://github.com/mozilla/standards-positions/issues/794)
 - [Tether elements to each other with CSS anchor positioning](https://developer.chrome.com/blog/tether-elements-to-each-other-with-css-anchor-positioning) by Jhey Tompkins (one of the spec editors)
-
-<img src="https://drafts.csswg.org/css-anchor-position-1/images/inset-area-example.png" width="420" />
-
 
 ```css
 .anchor {
