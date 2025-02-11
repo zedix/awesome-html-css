@@ -13,7 +13,7 @@
 - [2023-07-25 — Demo examples](https://codepen.io/collection/BNZjPe)
 - [2024-09-19 — Custom `<select>` boilerplate + transitions](https://nerdy.dev/custom-select-with-transitions-boilerplate)
 - [2024-12-03 — 2025 gonna be the year of customized `<select>`](https://x.com/wesbos/status/1863977220110217250)
-- [2025-01-10 — Updates to the customizable select API](html css)
+- [2025-01-10 — Updates to the customizable select API](https://una.im/select-updates/)
 
 Opt-in mode:
 
