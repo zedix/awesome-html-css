@@ -3,6 +3,7 @@
 <img height="260" src="https://github.com/user-attachments/assets/28975bd5-5cbc-464d-8217-7479f271a317" />
 <img height="260" src="https://github.com/user-attachments/assets/9554f86c-7868-4db5-9e91-20b642f0bbca" />
 
+
 - [WHATWG Stage 1: Stylable `<select>` element](https://github.com/whatwg/html/issues/9799)
 - [Open UI's explainer](https://open-ui.org/components/selectlist)
 - [Open UI's design decisions](https://open-ui.org/components/selectlist/#design-decisions)
@@ -11,6 +12,17 @@
 - [2023-06-01 — Advanced Form Control Styling With Selectmenu And Anchoring API](https://www.smashingmagazine.com/2023/06/advanced-form-control-styling-selectmenu-anchoring-api/)
 - [2023-07-25 — Demo examples](https://codepen.io/collection/BNZjPe)
 - [2024-09-19 — Custom `<select>` boilerplate + transitions](https://nerdy.dev/custom-select-with-transitions-boilerplate)
+- [2024-12-03 — 2025 gonna be the year of customized `<select>`](https://x.com/wesbos/status/1863977220110217250)
+- [2025-01-10 — Updates to the customizable select API](html css)
+
+Opt-in mode:
+
+```css
+select, ::picker(select) {
+  appearance: base-select;
+}
+```
+
 
 ```html
 <select class="my-custom-select">

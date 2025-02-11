@@ -23,6 +23,8 @@ Exclusive Accordion:
 The `<details>` elements that are part of an exclusive accordion don't necessarily need to be siblings. They can be scattered across the document.
 
 - [Real-World sidebar build with `<dialog>`/`<details`>](https://sport.tv2.dk/)
+- [2024-06-11 — More options for styling `<details>`](https://developer.chrome.com/blog/styling-details)
+  - [CodePen: Half opened disclosure widget](https://codepen.io/web-dot-dev/pen/PoMBQmW)
 - [2024-07-08 — Comeau tweet on `<details>`: "🔥 It feels like magic"](https://x.com/JoshWComeau/status/1810327228477055133)
 - [2024-07-15 — Animated exclusive accordions with CSS](https://x.com/jh3yy/status/1812966924294238558)
 - [2024-09-25 — Open & Close Transitions with `<details>`](https://nerdy.dev/open-and-close-transitions-for-the-details-element)

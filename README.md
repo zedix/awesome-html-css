@@ -39,7 +39,7 @@
 - Custom elements (2): `<template>`, `<slot>`
 - Scripting (3): `<script>`, `<noscript>`,`<canvas>`
 - Experimental (1): `<portal>`
-- Proposed (-): [`<selectedoption>`](https://open-ui.org/components/selectlist/)
+- Proposed (-): [`<selectedcontent>`](https://una.im/select-updates/)
 
 > [!NOTE]
 > These last element landed in the HTML spec was the [`<search>`](https://www.scottohara.me/blog/2023/03/24/search-element.html) element, at March 24th 2023.
@@ -55,6 +55,31 @@
 
 
 ## CSS
+
+- [CSS Scroll Animations](./resources/css-scroll-animations.md)
+- [CSS View Transitions](./resources/css-views-transitions.md)
+- [CSS `if()` notation](./resources/css-if-notation.md)
+- [CSS Anchor Positioning](./resources/css-anchor-positioning.md)
+
+
+```
+calc()
+var()
+clamp()
+fit-content(), repeat()
+min(), max()
+attr()
+env()
+color(), rgb(), hsl(), oklch()
+circle(), polygon()
+url()
+translate(), scale(), rotate()
+matrix()
+invert()
+sin(), cos(), tan(), pow(), hypot(), log()
+steps()
+scroll(), scroll-state(), view()
+```
 
 ### CSS `subgrid`
 
@@ -87,122 +112,12 @@ figure {
 - [CSS Style Container Queries (custom properties) #828](https://github.com/web-platform-tests/interop/issues/828)
 - [#10744 Allow applying style rules to the container itself](https://github.com/w3c/csswg-drafts/issues/10744)
 
-### CSS `if()` notation (inline conditionals on custom properties / self-styling feature)
-
-- [CSS Values and Units Module Level 5](https://www.w3.org/TR/css-values-5/)
-- [#10064 [css-values-5] What is the MVP for inline conditionals on custom properties? 🔥](https://github.com/w3c/csswg-drafts/issues/10064)
-
-```css
-zx-tag {
-  /* if(condition(): foo; else: bar) */
-  background-color: if(
-    (--variant: success): green;
-    else: white;
-  );
-}
-```
 
 ### CSS Custom Functions & Mixins
 
 - [Proposal: Custom CSS Functions & Mixins](https://github.com/w3c/csswg-drafts/labels/css-mixins)
 
-### CSS Anchor Position API
 
-<img src="https://github.com/zedix/awesome-html-css/assets/27975/ac8ba033-5070-41eb-9a56-2a9a11a5095a" width="420" />
-
-
-- [2021-03-06 — First Proposal by Melanie Richards (Microsoft)](https://melanie-richards.com/blog/anchored-positioning/)
-- [2023-03-15 — Future CSS: Anchor Positioning](https://kizu.dev/anchor-positioning-experiments/)
-- [2023-06-29 — First Working Draft](https://www.w3.org/TR/css-anchor-position-1/)
-- [2023-12-14 — Anchor Positioning ⭐](https://12daysofweb.dev/2023/anchor-positioning/)
-- [2024-02-09 — Editor’s Draft](https://drafts.csswg.org/css-anchor-position-1/)
-- [2024-04-12 — Chromium Intent to Ship: CSS Anchor Positioning](https://groups.google.com/a/chromium.org/g/blink-dev/c/jGTYNuidPRs/m/-jB4agJ7AAAJ)
-  - [Una's anchor-tool](http://anchor-tool.com/)
-  - [Una's bunch of demos](https://codepen.io/collection/ExkRWw?grid_type=grid)
-  - [`inset-area` demo exploration](https://codepen.io/kizu/pen/zYMmVJd)
-  - [csswg-drafts > css-anchor-position-1](https://github.com/w3c/csswg-drafts/labels/css-anchor-position-1)
-  - [Chromium tracking bug](https://issues.chromium.org/issues/40059176)
-  - [Mozilla tracking bug](https://bugzilla.mozilla.org/show_bug.cgi?id=1838746)
-  - [Explainer: CSS Anchor Positioning](https://xiaochengh.github.io/Explainers/css-anchor-position/explainer.html)
-  - [#9663 Better handle an inset-area edge case](https://github.com/w3c/csswg-drafts/issues/9663)
-  - [Tracking bug for implementation of Anchor Positioning feature](https://issues.chromium.org/issues/40059176)
-  - [WebKit Position](https://github.com/WebKit/standards-positions/issues/167#issuecomment-1708871010)
-  - [Mozilla Position](https://github.com/mozilla/standards-positions/issues/794)
-- [Tether elements to each other with CSS anchor positioning](https://developer.chrome.com/blog/tether-elements-to-each-other-with-css-anchor-positioning) by Jhey Tompkins (one of the spec editors)
-
-```css
-.anchor {
-  anchor-name: --my-anchor;
-}
-
-.tooltip {
-  /* Fixpos means we don’t need to worry about
-     containing block relationships;
-     the tooltip can live anywhere in the DOM. */
-  position: fixed;
-
-  /* All the anchoring behavior will default to
-     referring to the --tooltip anchor. */
-  position-anchor: --tooltip;
-
-  /* Align the tooltip’s bottom to the top of the anchor;
-     this also defaults to horizontally center-aligning
-     the tooltip and the anchor (in horizontal writing modes). */
-  inset-area: block-start;
-
-  /* Automatically swap if this overflows the window
-    so the tooltip’s top aligns to the anchor’s bottom
-    instead. */
-  position-try: flip-block;
-
-  /* Prevent getting too wide */
-  max-inline-size: 20em;
-}
-```
-
-Update April 2024: here is all the [code](https://codepen.io/una/pen/YzgOoLb) you need to get a [basic anchor](https://x.com/Una/status/1777810507849671036) now:
-
-```css
-#my-tooltip {
-  /*  Set the bottom of the anchored element (tooltip) to the top of the anchoring element  */
-  bottom: calc(anchor(top));
-  /*  If can't fit it in the screen anymore, flip the anchored element in the block direction */
-  position-try-options: flip-block;
-  /*  Center the anchor with justification  */
-  justify-self: anchor-center;
-}
-```
-
-- [3 lines of CSS to make your tooltips/menus stay in view 🤯](https://x.com/jh3yy/status/1778946758510260727)
-
-```css
-[popover] {
-  top: anchor(top);
-  left: anchor(right);
-  position-try-options: flip-block, flip-inline;
-}
-```
-
-## CSS Scroll-Driven Animations (`view-timeline`, `animation-timeline`, `view()`)
-
-- [CSS Scroll-triggered Animations with Style Queries](https://ryanmulligan.dev/blog/scroll-triggered-animations-style-queries/)
-- [Scroll-Driven Animations: You want overflow: clip, not overflow: hidden](https://www.bram.us/2024/02/14/scroll-driven-animations-you-want-overflow-clip-not-overflow-hidden/)
-- [Demo: show off Scroll-driven Animations](https://scroll-driven-animations.style/)
-- [Demo: CSS-Only Sticky CTA](https://x.com/jh3yy/status/1765166342502559923?s=20)
-- [Real World examples](https://x.com/Una/status/1767237843330433298?s=20)
-
-```css
-@keyframes slide-left {
-    from { transform: scale(0.7); }
-    to   { transform: scale(1); }
-}
-.scroll-animate-slide-left {
-    transform-origin: top right;
-    animation: slide-left ease-out both;
-    animation-timeline: view(block -64px);
-    animation-range: entry 0% entry 50%;
-}
-```
 
 ## CSS Custom Highlight API
 
@@ -230,10 +145,26 @@ Ability to animate discrete animations, such as animating to and from `display: 
 }
 ```
 
-## CSS View Transitions
+## CSS scroll-state() container queries: the `stuck` query
 
-- [2024-02-24 — View transitions: Handling aspect ratio changes](https://jakearchibald.com/2024/view-transitions-handling-aspect-ratio-changes/)
-- [2024-11-17 — Bramus - Supercharge Web UX with View Transitions!](https://www.youtube.com/watch?v=pMaAHpKFEAo) - React Brussels 2024
+- [Explainer](https://drafts.csswg.org/css-contain-4/scroll_state_explainer.html)
+
+```css
+#sticky {
+  container-name: main-nav;
+  container-type: sticky;
+  position: sticky;
+  top: 0;
+  height: 100px;
+}
+
+@container main-nav scroll-state(stuck: top) {
+   box-shadow: var(--shadow-5);
+   border-radius: var(--radius-3);
+   margin: var(--size-5);
+ }
+```
+
 
 ## CSS Handy (Old) Things
 
@@ -295,8 +226,13 @@ Ability to animate discrete animations, such as animating to and from `display: 
 - [Write better CSS with modern CSS](https://css-tip.com/better-modern-css/)
 - [The latest in Web UI (Google I/O ‘24)](https://www.youtube.com/watch?v=_-6LgEjEyzE)
 - [Adam Argyle blog](https://nerdy.dev/)
+- [CSS Tips](https://css-tip.com/)
 - [Transition to `height: auto` & `display: none` Using Pure CSS](https://blog.css-weekly.com/transition-to-height-auto-display-none-using-pure-css)
-
+- [CSS box-decoration-break](https://12daysofweb.dev/2024/css-box-decoration-break/)
+- [A standards first web framework](https://nuejs.org/blog/standards-first-web-framework/)
+- [attr() is getting an upgrade](https://una.im/advanced-attr/)
+- [New Front-End Features In 2025](https://www.smashingmagazine.com/2024/12/new-front-end-features-for-designers-in-2025/)
+- [CSS Wrapped 2024](https://chrome.dev/css-wrapped-2024/)
 
 ## UI Kit
 
