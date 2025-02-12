@@ -15,14 +15,14 @@
 
 ## HTML
 
-- [The `<dialog>` element](./resources/dialog-element.md)
-- [The `<details>` element](./resources/details-element.md)
-- [The customizable `<select>` element](./resources/customizable-select-element.md)
-- [The `popover` attribute](./resources/popover-attribute.md)
-- [The `command` attribute](./resources/invoker-commands-api.md)
-- [The `focusgroup` attribute](./resources/focusgroup-attribute.md)
-- [The `switch` attribute](./resources/switch-attribute.md)
-- [The `CloseWatcher` api](./resources/closewatcher-api.md)
+- [The `<dialog>` element](./resources/html-dialog-element.md)
+- [The `<details>` element](./resources/html-details-element.md)
+- [The customizable `<select>` element](./resources/html-customizable-select-element.md)
+- [The `popover` attribute](./resources/html-popover-attribute.md)
+- [The `command` attribute](./resources/html-invoker-commands-api.md)
+- [The `focusgroup` attribute](./resources/html-focusgroup-attribute.md)
+- [The `switch` attribute](./resources/html-switch-attribute.md)
+- [The `CloseWatcher` api](./resources/html-closewatcher-api.md)
 
 ### All HTML elements (115)
 
@@ -73,35 +73,6 @@
 calc(), var(), clamp(), fit-content(), repeat(), min(), max(), attr(), env(), color(), rgb(), hsl(), oklch(), circle(), polygon(), url(), translate(), scale(), rotate(), matrix(), invert(), sin(), cos(), tan(), pow(), hypot(), log(), steps(), scroll(), scroll-state(), view()
 ```
 
-## CSS Handy (Old) Things
-
-- [:any-link](https://developer.mozilla.org/en-US/docs/Web/CSS/:any-link)
-- :empty
-- :first-child
-- :focus-visible
-- :focus-within
-- accent-color
-- [aspect-ratio](https://developer.mozilla.org/en-US/docs/Web/CSS/aspect-ratio)
-- [backdrop-filter](https://developer.mozilla.org/en-US/docs/Web/CSS/backdrop-filter)
-- border-image
-- caret-color
-- columns
-- [drop-shadow()](https://developer.mozilla.org/fr/docs/Web/CSS/filter-function/drop-shadow)
-- [fit-content()](https://developer.mozilla.org/en-US/docs/Web/CSS/fit-content_function)
-- gap
-- inset
-- list-style
-- matrix3d()
-- object-fit
-- [overscroll-behavior](https://developer.mozilla.org/en-US/docs/Web/CSS/overscroll-behavior)
-- [scroll-margin](https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-margin)
-- [scroll-snap](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_scroll_snap)
-- @supports (hover)
-
-
-[Above list from Adam Argyle](https://x.com/KevinJPowell/status/1766488365904392399?s=20)
-
-
 ## Resources
 
 - [12 Days of Web](https://12daysofweb.dev/)
@@ -118,7 +89,7 @@ calc(), var(), clamp(), fit-content(), repeat(), min(), max(), attr(), env(), co
 - [CSS box-decoration-break](https://12daysofweb.dev/2024/css-box-decoration-break/)
 - [A standards first web framework](https://nuejs.org/blog/standards-first-web-framework/)
 - [attr() is getting an upgrade](https://una.im/advanced-attr/)
-- [New Front-End Features In 2025](https://www.smashingmagazine.com/2024/12/new-front-end-features-for-designers-in-2025/)
+- [2024-12-31 — New Front-End Features In 2025](https://www.smashingmagazine.com/2024/12/new-front-end-features-for-designers-in-2025/)
 - [CSS Wrapped 2024](https://chrome.dev/css-wrapped-2024/)
 
 ## UI Kit
