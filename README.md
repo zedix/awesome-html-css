@@ -58,41 +58,20 @@
 
 - [CSS Scroll Animations](./resources/css-scroll-animations.md)
 - [CSS View Transitions](./resources/css-views-transitions.md)
-- [CSS `if()` notation](./resources/css-if-notation.md)
 - [CSS Anchor Positioning](./resources/css-anchor-positioning.md)
 - [CSS Subgrid](./resources/css-subgrid.md)
 - [CSS Discrete Property Animations](./resources/css-discrete-property-animations.md)
 - [CSS Container Queries](./resources/css-container-queries.md)
 - [CSS Custom Highlight](./resources/css-custom-highlight.md)
+- [CSS Mixins](./resources/css-mixins.md)
+- [CSS `color-mix()`](./resources/css-color-mix.md)
+- [CSS `if()` notation](./resources/css-if-notation.md)
+- [CSS tips ✨](./resources/css-tips.md)
 
 
 ```
-calc()
-var()
-clamp()
-fit-content(), repeat()
-min(), max()
-attr()
-env()
-color(), rgb(), hsl(), oklch()
-circle(), polygon()
-url()
-translate(), scale(), rotate()
-matrix()
-invert()
-sin(), cos(), tan(), pow(), hypot(), log()
-steps()
-scroll(), scroll-state(), view()
+calc(), var(), clamp(), fit-content(), repeat(), min(), max(), attr(), env(), color(), rgb(), hsl(), oklch(), circle(), polygon(), url(), translate(), scale(), rotate(), matrix(), invert(), sin(), cos(), tan(), pow(), hypot(), log(), steps(), scroll(), scroll-state(), view()
 ```
-
-### CSS `color-mix()`
-
-- [2024-03-08 — Creating color palettes with the CSS color-mix() function](https://developer.mozilla.org/en-US/blog/color-palettes-css-color-mix/)
-
-### CSS Custom Functions & Mixins
-
-- [Proposal: Custom CSS Functions & Mixins](https://github.com/w3c/csswg-drafts/labels/css-mixins)
-
 
 ## CSS Handy (Old) Things
 
@@ -122,26 +101,6 @@ scroll(), scroll-state(), view()
 
 [Above list from Adam Argyle](https://x.com/KevinJPowell/status/1766488365904392399?s=20)
 
-### CSS Tips
-
-- [Safe/unsafe alignment in CSS flexbox](https://www.stefanjudis.com/today-i-learned/safe-unsafe-alignment-in-css-flexbox/)
-
-```css
-.container {
-  display: flex;
-  flex-direction: column;
-  align-items: safe center;
-  width: 38%;
-}
-```
-
-- [The Complex But Awesome CSS border-image Property](https://www.smashingmagazine.com/2024/01/css-border-image-property/)
-
-```css
-.overlay {
-  border-image: fill 0 linear-gradient(#0003, #000);
-}
-```
 
 ## Resources
 
