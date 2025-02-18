@@ -3,15 +3,15 @@
 New syntax:
 
 ```html
-<button commandfor="my-modal" command="showModal">Trigger dialog</button>
+<button commandfor="my-modal" command="show-modal">Trigger dialog</button>
 <dialog id="my-modal">This is my dialog</dialog>
 ```
 
 ```html
 <div class="counter">
-  <button commandfor="num" command="stepDown">-</button>
+  <button commandfor="num" command="step-down">-</button>
   <input type="number" min="1" id="num" value="1">
-  <button commandfor="num" id="btn" command="stepUp">+</button>
+  <button commandfor="num" id="btn" command="step-up">+</button>
 </div>
 ```
 
