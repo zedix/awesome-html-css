@@ -1,14 +1,14 @@
-# CSS `attr()`
+# CSS `attr()` new capabilities
 
 ```html
-<div data-width="100px" data-color="green"></div>
+<ui-rating data-rating="4.5"></ui-rating>
 ```
 
 ```css
-div {
-  width: attr(data-width type(<length>));
-  background: attr(data-color type(<color>));
+ui-rating {
+  --percent-fill: calc(attr(data-rating type(<number>)) * 20%);
+  background: linear-gradient(to right, gold var(--percent-fill), transparent var(--percent-fill));
 }
 ```
 
-- [2025-02-17 — The attr() function in CSS now supports types](https://www.amitmerchant.com/attr-function-types-css/#how-to-use-attr-with-types)
+- [2025-01-21 — New capabilities for attr()](https://una.im/advanced-attr/)

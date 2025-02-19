@@ -70,7 +70,6 @@
 - [CSS `attr()`](./resources/css-attr.md)
 - [CSS tips ✨](./resources/css-tips.md)
 
-https://www.amitmerchant.com/attr-function-types-css/#how-to-use-attr-with-types
 
 
 ```
