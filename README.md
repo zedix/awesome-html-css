@@ -23,6 +23,7 @@
 - [The `focusgroup` attribute](./resources/html-focusgroup-attribute.md)
 - [The `switch` attribute](./resources/html-switch-attribute.md)
 - [The `CloseWatcher` api](./resources/html-closewatcher-api.md)
+- [The `Abort Controller` api](./resources/html-abort-controller.md)
 
 ### All HTML elements (115)
 
@@ -66,7 +67,10 @@
 - [CSS Mixins](./resources/css-mixins.md)
 - [CSS `color-mix()`](./resources/css-color-mix.md)
 - [CSS `if()` notation](./resources/css-if-notation.md)
+- [CSS `attr()`](./resources/css-attr.md)
 - [CSS tips ✨](./resources/css-tips.md)
+
+https://www.amitmerchant.com/attr-function-types-css/#how-to-use-attr-with-types
 
 
 ```
@@ -75,22 +79,22 @@ calc(), var(), clamp(), fit-content(), repeat(), min(), max(), attr(), env(), co
 
 ## Resources
 
-- [12 Days of Web](https://12daysofweb.dev/)
-- [Interop 2024 Dashboard](https://webkit.org/blog/14955/the-web-just-gets-better-with-interop/)
-- [CSS Wrapped 2023](https://developer.chrome.com/blog/css-wrapped-2023)
-- [New to the web platform](https://web.dev/blog)
+- [2025-01-21 — attr() is getting an upgrade](https://una.im/advanced-attr/)
+- [2024-08-08 — Transition to `height: auto` & `display: none` Using Pure CSS](https://blog.css-weekly.com/transition-to-height-auto-display-none-using-pure-css)
+- [2024-12-19 — CSS box-decoration-break](https://12daysofweb.dev/2024/css-box-decoration-break/)
+- [2024-12-31 — New Front-End Features In 2025](https://www.smashingmagazine.com/2024/12/new-front-end-features-for-designers-in-2025/)
+- [2024-12-31 — CSS Wrapped 2024](https://chrome.dev/css-wrapped-2024/)
+- [2024-02-01 — Interop 2024 Dashboard](https://webkit.org/blog/14955/the-web-just-gets-better-with-interop/)
+- [2023-12-31 — CSS Wrapped 2023](https://developer.chrome.com/blog/css-wrapped-2023)
+- [News to the web platform](https://web.dev/blog)
 - [Better, Faster, Stronger Web UI](https://una.github.io/better-faster-stronger-web-ui/) by Una Kravets
 - [Modern CSS patterns in Campfire](https://dev.37signals.com/modern-css-patterns-and-techniques-in-campfire/)
 - [Write better CSS with modern CSS](https://css-tip.com/better-modern-css/)
 - [The latest in Web UI (Google I/O ‘24)](https://www.youtube.com/watch?v=_-6LgEjEyzE)
 - [Adam Argyle blog](https://nerdy.dev/)
 - [CSS Tips](https://css-tip.com/)
-- [Transition to `height: auto` & `display: none` Using Pure CSS](https://blog.css-weekly.com/transition-to-height-auto-display-none-using-pure-css)
-- [CSS box-decoration-break](https://12daysofweb.dev/2024/css-box-decoration-break/)
 - [A standards first web framework](https://nuejs.org/blog/standards-first-web-framework/)
-- [attr() is getting an upgrade](https://una.im/advanced-attr/)
-- [2024-12-31 — New Front-End Features In 2025](https://www.smashingmagazine.com/2024/12/new-front-end-features-for-designers-in-2025/)
-- [CSS Wrapped 2024](https://chrome.dev/css-wrapped-2024/)
+
 
 ## UI Kit
 
