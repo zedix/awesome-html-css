@@ -25,6 +25,10 @@
 - [The `CloseWatcher` api](./resources/html-closewatcher-api.md)
 - [The `Abort Controller` api](./resources/html-abort-controller.md)
 
+## Following
+
+- [Proposal: Customized built-in elements via elementInternals.type](https://github.com/whatwg/html/issues/11061)
+
 ### All HTML elements (115)
 
 - Document element (1): `<html>`
@@ -79,6 +83,7 @@ calc(), var(), clamp(), fit-content(), repeat(), min(), max(), attr(), env(), co
 ## Resources
 
 - [2025-01-21 — attr() is getting an upgrade](https://una.im/advanced-attr/)
+- [2024-12-21 — Re-imagine the web](https://www.youtube.com/watch?v=LjkraMIWPEY&list=PLNYkxOF6rcIA7z8m5u91ekf81ZXDjTMIZ&index=4)
 - [2024-08-08 — Transition to `height: auto` & `display: none` Using Pure CSS](https://blog.css-weekly.com/transition-to-height-auto-display-none-using-pure-css)
 - [2024-12-19 — CSS box-decoration-break](https://12daysofweb.dev/2024/css-box-decoration-break/)
 - [2024-12-31 — New Front-End Features In 2025](https://www.smashingmagazine.com/2024/12/new-front-end-features-for-designers-in-2025/)

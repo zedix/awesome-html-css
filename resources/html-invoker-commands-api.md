@@ -15,6 +15,7 @@ New syntax:
 </div>
 ```
 
+- [2025-02-19 — HTML Spec (merged)](https://html.spec.whatwg.org/multipage/form-elements.html#invoker-command-steps)
 - [2024-07-15 — An update on invokers: Invoker commands in HTML](https://utilitybend.com/blog/an-update-on-invokers-invoker-commands-in-html)
 - [2024-03-24 — I love invokers and you should too](https://buttondown.email/cascade/archive/018-i-love-invokers-and-you-should-too/)
 - [Full list of built-in commands](https://open-ui.org/components/invokers.explainer/#defaults)
