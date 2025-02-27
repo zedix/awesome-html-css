@@ -2,11 +2,8 @@
 
 <img src="https://github.com/zedix/awesome-html-css/assets/27975/ac8ba033-5070-41eb-9a56-2a9a11a5095a" width="420" />
 
-
-- [2021-03-06 — First Proposal by Melanie Richards (Microsoft)](https://melanie-richards.com/blog/anchored-positioning/)
-- [2023-03-15 — Future CSS: Anchor Positioning](https://kizu.dev/anchor-positioning-experiments/)
-- [2023-06-29 — First Working Draft](https://www.w3.org/TR/css-anchor-position-1/)
-- [2023-12-14 — Anchor Positioning ⭐](https://12daysofweb.dev/2023/anchor-positioning/)
+- [2025-02-25 —  Better Anchor Positioning with position-area](https://www.oddbird.net/2025/02/25/anchor-position-area/)
+- [2024-11-18 — Anchor Positioning Is Disruptive](https://www.oddbird.net/2024/11/18/anchor-position-yearbook/)
 - [2024-02-09 — Editor’s Draft](https://drafts.csswg.org/css-anchor-position-1/)
 - [2024-04-12 — Chromium Intent to Ship: CSS Anchor Positioning](https://groups.google.com/a/chromium.org/g/blink-dev/c/jGTYNuidPRs/m/-jB4agJ7AAAJ)
   - [Una's anchor-tool](http://anchor-tool.com/)
@@ -21,7 +18,11 @@
   - [WebKit Position](https://github.com/WebKit/standards-positions/issues/167#issuecomment-1708871010)
   - [Mozilla Position](https://github.com/mozilla/standards-positions/issues/794)
 - [Tether elements to each other with CSS anchor positioning](https://developer.chrome.com/blog/tether-elements-to-each-other-with-css-anchor-positioning) by Jhey Tompkins (one of the spec editors)
-- [2024-11-18 — Anchor Positioning Is Disruptive](https://www.oddbird.net/2024/11/18/anchor-position-yearbook/)
+- [2023-03-15 — Future CSS: Anchor Positioning](https://kizu.dev/anchor-positioning-experiments/)
+- [2023-06-29 — First Working Draft](https://www.w3.org/TR/css-anchor-position-1/)
+- [2023-12-14 — Anchor Positioning ⭐](https://12daysofweb.dev/2023/anchor-positioning/)
+- [2021-03-06 — First Proposal by Melanie Richards (Microsoft)](https://melanie-richards.com/blog/anchored-positioning/)
+
 
 ```css
 .anchor {
