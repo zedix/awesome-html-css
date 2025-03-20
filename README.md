@@ -28,6 +28,7 @@
 ## Following
 
 - [Proposal: Customized built-in elements via elementInternals.type](https://github.com/whatwg/html/issues/11061)
+- [Proposal: Custom attributes for all elements](https://github.com/WICG/webcomponents/issues/1029)
 
 ### All HTML elements (115)
 
