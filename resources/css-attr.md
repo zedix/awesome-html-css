@@ -11,6 +11,7 @@ ui-rating {
 }
 ```
 
+- [2025-03-25 — Custom progress element using attr()](https://css-tip.com/custom-progress/)
 - [2025-02-25 — How to Use attr() in CSS for Columns, Colors, and Font-Size](https://frontendmasters.com/blog/how-to-use-attr-in-css-for-columns-colors-and-font-size/)
 - [2025-01-21 — New capabilities for attr()](https://una.im/advanced-attr/)
 - [Can I Use —  attr() function for all properties](https://caniuse.com/css3-attr)

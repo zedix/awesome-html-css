@@ -22,7 +22,7 @@ Exclusive Accordion:
 
 The `<details>` elements that are part of an exclusive accordion don't necessarily need to be siblings. They can be scattered across the document.
 
-- [2025-03-07 —Creating Animated Accordions with the Details Element and Modern CSS](https://www.builder.io/blog/animated-css-accordions)
+- [2025-03-07 — Creating Animated Accordions with the Details Element and Modern CSS](https://www.builder.io/blog/animated-css-accordions)
 - [2024-09-25 — Open & Close Transitions with `<details>`](https://nerdy.dev/open-and-close-transitions-for-the-details-element)
 - [2024-07-15 — Animated exclusive accordions with CSS](https://x.com/jh3yy/status/1812966924294238558)
 - [2024-07-08 — Comeau tweet on `<details>`: "🔥 It feels like magic"](https://x.com/JoshWComeau/status/1810327228477055133)
