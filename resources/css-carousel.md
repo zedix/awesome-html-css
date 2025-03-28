@@ -3,12 +3,12 @@
 - [CSS Carousel Gallery (Chrome 135)](https://chrome.dev/carousel/)
 - [CSS Carousel Configurator (Chrome 135)](https://chrome.dev/carousel-configurator/)
 
-- Works with JavaScript disabled.
-- No hydration or lazy sizing (reduce CLS).
-- Ready for all kinds of scroll animation and triggers.
-- Accessibility is included.
-- Touch, mouse, and keyboard friendly.
-
+> [!NOTE]
+> - Works with JavaScript disabled.
+> - No hydration or lazy sizing (reduce CLS).
+> - Ready for all kinds of scroll animation and triggers.
+> - Accessibility is included.
+> - Touch, mouse, and keyboard friendly.
 
 ## Snap Scroller
 
