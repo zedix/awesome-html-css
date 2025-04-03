@@ -3,6 +3,7 @@
 - [Web Platform Explorer](https://web-platform-dx.github.io/web-features-explorer/)
 - [Web Platform Baseline](https://web.dev/baseline)
 - [Web Platform Status](https://webstatus.dev/)
+- [WebDX Community Group](https://web-platform-dx.github.io/web-features/webdx-cg/)
 
 > [!TIP]
 > Stop writing unnecessary, heavy, thread-blocking JavaScript — [Una Kravets](https://una.github.io/better-faster-stronger-web-ui/)
@@ -74,6 +75,7 @@
 - [CSS `color-mix()`](./resources/css-color-mix.md)
 - [CSS `if()` notation](./resources/css-if-notation.md)
 - [CSS `attr()`](./resources/css-attr.md)
+- [CSS `shape()`](./resources/css-shape.md)
 - [CSS tips ✨](./resources/css-tips.md)
 
 
