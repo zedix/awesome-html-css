@@ -4,6 +4,7 @@
 - [Web Platform Baseline](https://web.dev/baseline)
 - [Web Platform Status](https://webstatus.dev/)
 - [WebDX Community Group](https://web-platform-dx.github.io/web-features/webdx-cg/)
+- [Interop 2025](https://webkit.org/blog/16458/announcing-interop-2025/)
 
 > [!TIP]
 > Stop writing unnecessary, heavy, thread-blocking JavaScript — [Una Kravets](https://una.github.io/better-faster-stronger-web-ui/)
@@ -81,7 +82,7 @@
 
 
 ```
-calc(), var(), clamp(), fit-content(), repeat(), min(), max(), attr(), env(), color(), rgb(), hsl(), oklch(), circle(), polygon(), url(), translate(), scale(), rotate(), matrix(), invert(), sin(), cos(), tan(), pow(), hypot(), log(), steps(), scroll(), scroll-state(), view()
+calc(), var(), clamp(), fit-content(), repeat(), min(), max(), attr(), env(), color(), rgb(), hsl(), oklch(), circle(), polygon(), url(), translate(), scale(), rotate(), matrix(), invert(), sin(), cos(), tan(), pow(), hypot(), log(), shape(), steps(), scroll(), scroll-state(), view()
 ```
 
 ## Resources
