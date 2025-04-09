@@ -9,6 +9,7 @@ clip-path: shape(from right center,
     line to right center);
 ```
 
+- [2025-04-08 — Use shape() for responsive clipping](https://developer.chrome.com/blog/css-shape)
 - [The `shape()` Function](https://drafts.csswg.org/css-shapes-2/#shape-function)
 - [Demo](https://codepen.io/yisi/pen/vEYGrQv)
 - [`shape()` in Safari 18.4](https://webkit.org/blog/16574/webkit-features-in-safari-18-4)
