@@ -71,7 +71,7 @@
 - [CSS Discrete Property Animations](./resources/css-discrete-property-animations.md)
 - [CSS Carousel](./resources/css-carousel.md)
 - [CSS Container Queries](./resources/css-container-queries.md)
-- [CSS Custom Functions](./resources/css-custom-functions.md)
+- [CSS Mixins & Functions](./resources/css-mixins-functions.md)
 - [CSS Custom Highlight](./resources/css-custom-highlight.md)
 - [CSS `color-mix()`](./resources/css-color-mix.md)
 - [CSS `if()` notation](./resources/css-if-notation.md)
