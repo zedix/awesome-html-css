@@ -1,5 +1,6 @@
 # CSS Scroll-Driven Animations (`view-timeline`, `animation-timeline`, `view()`)
 
+- [Silky-smooth, uninterrupted scroll-driven web animations](https://webstudio.is/scroll-driven-animations)
 - [Introducing "Unleash the power of Scroll-Driven Animations"](https://developer.chrome.com/blog/scroll-driven-animations-video-course?hl=en)
 - [CSS Scroll-triggered Animations with Style Queries](https://ryanmulligan.dev/blog/scroll-triggered-animations-style-queries/)
 - [Scroll-Driven Animations: You want overflow: clip, not overflow: hidden](https://www.bram.us/2024/02/14/scroll-driven-animations-you-want-overflow-clip-not-overflow-hidden/)
