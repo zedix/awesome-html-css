@@ -1,6 +1,6 @@
 ## CSS `ident()`
 
-> The ident() function may be used to construct CSS identifiers dynamically, e.g. the concatenation of a string part and an integer part.
+The `ident()` function may be used to construct CSS identifiers dynamically, e.g. the concatenation of a string part and an integer part.
 
 ```css
 .item {
@@ -11,7 +11,7 @@
 
 ```css
 .card[id] {
-	/* E.g. card1, card2, card3, … */
+  /* E.g. card1, card2, card3, … */
 	--id: attr(id);
 
 	view-transition-name: ident(var(--id));
@@ -25,4 +25,11 @@
 }
 ```
 
+```css
+.element {
+  anchor-name: ident("--" attr(id));
+}
+```
+
 - https://x.com/bramus/status/1922551283585614159
+  - This allows me to reduce the amount of CSS to write when multiple items that behave in the same need to have a unique name.
