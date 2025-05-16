@@ -75,6 +75,7 @@
 - [CSS Custom Highlight](./resources/css-custom-highlight.md)
 - [CSS `color-mix()`](./resources/css-color-mix.md)
 - [CSS `if()` notation](./resources/css-if-notation.md)
+- [CSS `ident()`](./resources/css-ident.md)
 - [CSS `attr()`](./resources/css-attr.md)
 - [CSS `shape()`](./resources/css-shape.md)
 - [CSS tips ✨](./resources/css-tips.md)

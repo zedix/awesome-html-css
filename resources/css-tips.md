@@ -20,6 +20,24 @@
 ```
 
 
+- [Dynamic mask using a progressive CSS scroll-driven animation](https://x.com/jh3yy/status/1918118919614665086)
+  - [Codepen demo](https://codepen.io/jh3y/pen/OPPQvxR)
+
+```css
+input {
+  animation: in;
+  animation-timeline: scroll(self inline);
+  animation-range: 0 6ch;
+  mask-position: 0 0;
+}
+@keyframes in { 0% { mask-position: -6ch 0; }}
+```
+
+### Demos
+
+- [CSS Number Animation](https://codepen.io/jh3y/pen/gbbYZEz)
+
+
 ## CSS Handy (Old) Things
 
 - [:any-link](https://developer.mozilla.org/en-US/docs/Web/CSS/:any-link)
@@ -47,3 +65,8 @@
 
 
 [Above list from Adam Argyle](https://x.com/KevinJPowell/status/1766488365904392399?s=20)
+
+
+## Resources
+
+- [Good vs Great Animations](https://emilkowal.ski/ui/good-vs-great-animations)
