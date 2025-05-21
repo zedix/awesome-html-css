@@ -67,6 +67,10 @@ input {
 [Above list from Adam Argyle](https://x.com/KevinJPowell/status/1766488365904392399?s=20)
 
 
+## Courses
+
+- [The Craft of UI](https://www.craftofui.dev/)
+
 ## Resources
 
 - [Good vs Great Animations](https://emilkowal.ski/ui/good-vs-great-animations)

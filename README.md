@@ -88,6 +88,7 @@ calc(), var(), clamp(), fit-content(), repeat(), min(), max(), attr(), env(), co
 
 ## Resources
 
+- [2025-05-12 — Just fucking use HTML](https://justfuckingusehtml.com/)
 - [2025-03-19 — Minding the gaps: A new way to draw separators in CSS](https://blogs.windows.com/msedgedev/2025/03/19/minding-the-gaps-a-new-way-to-draw-separators-in-css/)
 - [2025-01-21 — attr() is getting an upgrade](https://una.im/advanced-attr/)
 - [2024-12-21 — Re-imagine the web](https://www.youtube.com/watch?v=LjkraMIWPEY&list=PLNYkxOF6rcIA7z8m5u91ekf81ZXDjTMIZ&index=4)

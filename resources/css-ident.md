@@ -12,16 +12,16 @@ The `ident()` function may be used to construct CSS identifiers dynamically, e.g
 ```css
 .card[id] {
   /* E.g. card1, card2, card3, … */
-	--id: attr(id);
+  --id: attr(id);
 
-	view-transition-name: ident(var(--id));
-	view-transition-class: card;
+  view-transition-name: ident(var(--id));
+  view-transition-class: card;
 
-	h1 {
-		/* E.g. card1-title, card2-title, card3-title, … */
-		view-transition-name: ident(var(--id) "-title");
-		view-transition-class: card-title;
-	}
+  h1 {
+    /* E.g. card1-title, card2-title, card3-title, … */
+    view-transition-name: ident(var(--id) "-title");
+    view-transition-class: card-title;
+  }
 }
 ```
 
