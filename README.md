@@ -67,6 +67,9 @@
 
 ## CSS
 
+<img width="737" alt="image" src="https://github.com/user-attachments/assets/1c618833-e4e6-4ad8-ac83-7e43fe1c04e0" />
+
+
 - [CSS View Transitions](./resources/css-views-transitions.md)
 - [CSS Anchor Positioning](./resources/css-anchor-positioning.md)
 - [CSS Subgrid](./resources/css-subgrid.md)
