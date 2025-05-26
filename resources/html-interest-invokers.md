@@ -1,5 +1,7 @@
 # Interest Invokers API (`[interesttarget]`)
 
+> Goodbye unstylable `[title]` attribute; hello `[interesttarget]`! Combine it with the _Anchor Positioning API_ and _Popover API_ to create rich, responsive, and interactive UI elements like tooltips or hover cards, without JavaScript.
+
 ```html
 <button interesttarget="profile-callout">
   ...

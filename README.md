@@ -1,7 +1,7 @@
-# Awesome HTML & CSS (with super powers)
+# Awesome HTML & CSS (with super powers) — The golden age of Web UI
 
 - [Web Platform Explorer](https://web-platform-dx.github.io/web-features-explorer/)
-- [Web Platform Baseline](https://web.dev/baseline)
+- [Web Platform Baseline](https://web.dev/baseline) + [Browserslist plugin](https://github.com/web-platform-dx/browserslist-config-baseline)
 - [Web Platform Status](https://webstatus.dev/)
 - [WebDX Community Group](https://web-platform-dx.github.io/web-features/webdx-cg/)
 - [Interop 2025](https://webkit.org/blog/16458/announcing-interop-2025/)
@@ -57,15 +57,6 @@
 > These last element landed in the HTML spec was the [`<search>`](https://www.scottohara.me/blog/2023/03/24/search-element.html) element, at March 24th 2023.
 
 
-### HTML over the wire (instead of JSON)
-
-- [The AHA Stack](https://ahastack.dev/)
-- [htmx](https://htmx.org/)
-- [Livewire](https://livewire.laravel.com/)
-- [Hotwire](https://hotwired.dev/)
-- [Alpine](https://github.com/alpinejs/alpine)
-
-
 ## CSS
 
 <img width="737" alt="image" src="https://github.com/user-attachments/assets/1c618833-e4e6-4ad8-ac83-7e43fe1c04e0" />
@@ -116,6 +107,14 @@ calc(), var(), clamp(), fit-content(), repeat(), min(), max(), attr(), env(), co
 - [CSS Tips](https://css-tip.com/)
 - [A standards first web framework](https://nuejs.org/blog/standards-first-web-framework/)
 
+
+### HTML over the wire (instead of JSON)
+
+- [The AHA Stack](https://ahastack.dev/)
+- [htmx](https://htmx.org/)
+- [Livewire](https://livewire.laravel.com/)
+- [Hotwire](https://hotwired.dev/)
+- [Alpine](https://github.com/alpinejs/alpine)
 
 ## UI Kit
 
