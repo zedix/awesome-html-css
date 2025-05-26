@@ -43,14 +43,14 @@
     font-family: "Material Symbols Outlined";
   }
 
-  &::scroll-button(right) {
-    position-area: inline-end center;
-    content: 'arrow_forward' / 'Next';
-  }
-
   &::scroll-button(left) {
     position-area: inline-start center;
     content: 'arrow_back' / 'Previous';
+  }
+
+  &::scroll-button(right) {
+    position-area: inline-end center;
+    content: 'arrow_forward' / 'Next';
   }
 }
 ```
@@ -107,4 +107,5 @@
 }
 ```
 
+- [2025-05-23 — Carousel APIs](https://youtu.be/VTCIStB6y8s?t=1332)
 - [2025-03-20 — Carousels with CSS](https://developer.chrome.com/blog/carousels-with-css)

@@ -15,6 +15,9 @@
 > [!TIP]
 > With all the new web features right on their way (view-transitions, @​starting-style, calc-size(), speculation rules, style and container queries, relative color syntax, ... the list goes on and on), it's time to face it... 🫣👇 — <a href="https://x.com/stefanjudis/status/1801176094243991995">Stefan Judis</a> <p><img src="https://pbs.twimg.com/media/GP8PXZBXsAAnFP_?format=jpg&name=large" height="280"/></p>
 
+> [!TIP]
+> Prepare to be dazzled by a symphony of fluidity, dynamism, and expressive power as we unveil the [next generation of web UI](https://io.google/2025/explore/pa-keynote-15). It’s a world where user experiences transcend the ordinary and developers become true visual orchestrators. Discover how you can turn 7,000 lines of JavaScript into a mere 7 lines of declarative HTML and CSS, unlocking unprecedented levels of efficiency and elegance.
+
 ## HTML
 
 - [The `<dialog>` element](./resources/html-dialog-element.md)
@@ -73,10 +76,10 @@
 - [CSS Container Queries](./resources/css-container-queries.md)
 - [CSS Mixins & Functions](./resources/css-mixins-functions.md)
 - [CSS Custom Highlight](./resources/css-custom-highlight.md)
+- [CSS Typed `attr()`](./resources/css-attr.md)
 - [CSS `color-mix()`](./resources/css-color-mix.md)
 - [CSS `if()` notation](./resources/css-if-notation.md)
 - [CSS `ident()`](./resources/css-ident.md)
-- [CSS `attr()`](./resources/css-attr.md)
 - [CSS `shape()`](./resources/css-shape.md)
 - [CSS tips ✨](./resources/css-tips.md)
 
@@ -88,7 +91,8 @@ calc(), var(), clamp(), fit-content(), repeat(), min(), max(), attr(), env(), co
 
 ## Resources
 
-- [2025-05-12 — Just fucking use HTML](https://justfuckingusehtml.com/)
+- [2025-05-23 — What's new in web UI — GoogleIO 2025](https://io.google/2025/explore/pa-keynote-15)
+- [2025-05-12 — Just fucking use HTML](https://app.daily.dev/posts/nfbblnxfs)
 - [2025-03-19 — Minding the gaps: A new way to draw separators in CSS](https://blogs.windows.com/msedgedev/2025/03/19/minding-the-gaps-a-new-way-to-draw-separators-in-css/)
 - [2025-01-21 — attr() is getting an upgrade](https://una.im/advanced-attr/)
 - [2024-12-21 — Re-imagine the web](https://www.youtube.com/watch?v=LjkraMIWPEY&list=PLNYkxOF6rcIA7z8m5u91ekf81ZXDjTMIZ&index=4)
