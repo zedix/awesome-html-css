@@ -2,6 +2,8 @@
 
 ##  The `stuck` query
 
+![image](https://github.com/user-attachments/assets/cfe332da-fad2-4a44-9d31-7b3245783951)
+
 - [Explainer](https://drafts.csswg.org/css-contain-4/scroll_state_explainer.html)
 - [CSS picture-in-picture video transition using container queries + position: sticky 🧑‍🍳](https://x.com/jh3yy/status/1923179769123725595)
 
