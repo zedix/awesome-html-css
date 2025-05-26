@@ -67,7 +67,6 @@
 
 ## CSS
 
-- [CSS Scroll Animations](./resources/css-scroll-animations.md)
 - [CSS View Transitions](./resources/css-views-transitions.md)
 - [CSS Anchor Positioning](./resources/css-anchor-positioning.md)
 - [CSS Subgrid](./resources/css-subgrid.md)
@@ -76,11 +75,13 @@
 - [CSS Container Queries](./resources/css-container-queries.md)
 - [CSS Mixins & Functions](./resources/css-mixins-functions.md)
 - [CSS Custom Highlight](./resources/css-custom-highlight.md)
-- [CSS Typed `attr()`](./resources/css-attr.md)
+- [CSS Scroll Animations](./resources/css-scroll-animations.md)
+- [CSS `attr()`](./resources/css-attr.md)
 - [CSS `color-mix()`](./resources/css-color-mix.md)
 - [CSS `if()` notation](./resources/css-if-notation.md)
 - [CSS `ident()`](./resources/css-ident.md)
 - [CSS `shape()`](./resources/css-shape.md)
+- [CSS `scroll-state()`](./resources/css-scroll-state.md)
 - [CSS tips ✨](./resources/css-tips.md)
 
 

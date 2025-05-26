@@ -1,4 +1,4 @@
-# CSS `attr()` new capabilities
+# CSS Typed `attr()` new capabilities
 
 ```html
 <ui-rating data-rating="4.5"></ui-rating>
