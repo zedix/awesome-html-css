@@ -27,4 +27,5 @@
 
 ## Examples
 
+- [Scroll-driven Animations Demos](https://scroll-driven-animations.style/)
 - [Photo gallery with Scroll Driven Animation](https://codepen.io/argyleink/pen/LEYOgxy)

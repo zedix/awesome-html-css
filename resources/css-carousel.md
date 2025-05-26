@@ -108,4 +108,5 @@
 ```
 
 - [2025-05-23 — Carousel APIs](https://youtu.be/VTCIStB6y8s?t=1332)
+- [2025-05-23 — Elementor CSS Carousel Playground](https://playground.elementor.com/demo/css-carousels/)
 - [2025-03-20 — Carousels with CSS](https://developer.chrome.com/blog/carousels-with-css)

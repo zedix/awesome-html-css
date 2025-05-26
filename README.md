@@ -25,6 +25,7 @@
 - [The customizable `<select>` element](./resources/html-customizable-select-element.md)
 - [The `popover` attribute](./resources/html-popover-attribute.md)
 - [The `command` attribute](./resources/html-invoker-commands-api.md)
+- [The `interesttarget` attribute](./resources/html-interest-invokers.md)
 - [The `focusgroup` attribute](./resources/html-focusgroup-attribute.md)
 - [The `switch` attribute](./resources/html-switch-attribute.md)
 - [The `CloseWatcher` api](./resources/html-closewatcher-api.md)
