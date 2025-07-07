@@ -30,6 +30,8 @@
 
 ![image](https://github.com/user-attachments/assets/4ce69b88-3a55-4ddb-8232-814579b00864)
 
+- [CSS if() function & reading-flow (in Chrome 137)](https://www.youtube.com/watch?v=Apn8ucs7AL0&t=5s)
+- [CSS if() function #1045](https://github.com/w3ctag/design-reviews/issues/1045)
 - [Intent to Ship: Short-circuiting var(), attr()](https://groups.google.com/a/chromium.org/g/blink-dev/c/VqnJ6-4vGFs/m/OzblXmg7AAAJ)
 - [CSS Values and Units Module Level 5](https://drafts.csswg.org/css-values-5/#if-notation)
 - [#10064 [css-values-5] What is the MVP for inline conditionals on custom properties? 🔥](https://github.com/w3c/csswg-drafts/issues/10064)
