@@ -90,6 +90,7 @@ calc(), var(), clamp(), fit-content(), repeat(), min(), max(), attr(), env(), co
 
 ## Resources
 
+- [2025-07-24 — It’s time for modern CSS to kill the SPA](https://www.jonoalderson.com/conjecture/its-time-for-modern-css-to-kill-the-spa/)
 - [2025-05-23 — What's new in web UI — GoogleIO 2025](https://io.google/2025/explore/pa-keynote-15)
 - [2025-05-12 — Just fucking use HTML](https://app.daily.dev/posts/nfbblnxfs)
 - [2025-03-19 — Minding the gaps: A new way to draw separators in CSS](https://blogs.windows.com/msedgedev/2025/03/19/minding-the-gaps-a-new-way-to-draw-separators-in-css/)
@@ -108,8 +109,6 @@ calc(), var(), clamp(), fit-content(), repeat(), min(), max(), attr(), env(), co
 - [The latest in Web UI (Google I/O ‘24)](https://www.youtube.com/watch?v=_-6LgEjEyzE)
 - [Adam Argyle blog](https://nerdy.dev/)
 - [CSS Tips](https://css-tip.com/)
-- [A standards first web framework](https://nuejs.org/blog/standards-first-web-framework/)
-
 
 ### HTML over the wire (instead of JSON)
 
@@ -119,9 +118,8 @@ calc(), var(), clamp(), fit-content(), repeat(), min(), max(), attr(), env(), co
 - [Hotwire](https://hotwired.dev/)
 - [Alpine](https://github.com/alpinejs/alpine)
 
-## UI Kit
+## CSS-first components frameworks
 
-- `<dialog>`: modal content, sidebars
-- `<details>`: accordions, disclosures
-- `popover`: menus, custom toast notifications, content pickers
-- `anchor`: tooltips
+- [Kelp](https://kelpui.com/)
+- [Winduum](https://winduum.dev/)
+- [Nue](https://nuejs.org/blog/standards-first-web-framework/)

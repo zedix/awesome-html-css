@@ -4,6 +4,7 @@
 <img height="260" src="https://github.com/user-attachments/assets/9554f86c-7868-4db5-9e91-20b642f0bbca" />
 
 
+- [2025-07-01 — Custom Select (that comes up from the bottom on mobile)](https://frontendmasters.com/blog/custom-select-that-comes-up-from-the-bottom-on-mobile/)
 - [2025-03-24 — The `<select>` element can now be customized with CSS (Chrome 135)](https://developer.chrome.com/blog/a-customizable-select?hl=en)
 - [2025-03-15 — The customizable select - Part one: history, trickery, and styling the select with CSS](https://utilitybend.com/blog/the-customizable-select-part-one-history-trickery-and-styling-the-select-with-css)
 - [2025-03-10 —Future of CSS: Select styling without the hacks
@@ -24,6 +25,20 @@ Opt-in mode:
 ```css
 select, ::picker(select) {
   appearance: base-select;
+}
+```
+
+Alternative [snippet](https://frontendmasters.com/blog/custom-select-that-comes-up-from-the-bottom-on-mobile/#the-base):
+
+```css
+select {
+  appearance: none;
+  @supports (appearance: base-select) {
+    &,
+    &::picker(select) {
+      appearance: base-select;
+    }
+  }
 }
 ```
 

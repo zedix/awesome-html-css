@@ -49,6 +49,7 @@ Progressively-enhanced entry/exit animation to your popovers or dialogs:
 }
 ```
 
+- [2025-07-07 — What is popover=hint? — Chrome 133 (January 2025)](https://una.im/popover-hint/)
 - [2025-02-07 — The Popover API is now Baseline Newly available](https://web.dev/blog/popover-baseline)
 - [2024-10-12 — Web components + anchor positioning + popover API = I love the platform](https://jschof.dev/posts/2024/9/love-letter-to-the-platform/)
 - [2024-03-04 — The Popover API, invokers, anchor positioning and @starting-style ✨](https://frontendmasters.com/blog/menus-toasts-and-more/)

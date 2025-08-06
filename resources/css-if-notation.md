@@ -30,6 +30,7 @@
 
 ![image](https://github.com/user-attachments/assets/4ce69b88-3a55-4ddb-8232-814579b00864)
 
+- [2025-07-01 — CSS conditionals with the new if() function](https://developer.chrome.com/blog/if-article)
 - [CSS if() function & reading-flow (in Chrome 137)](https://www.youtube.com/watch?v=Apn8ucs7AL0&t=5s)
 - [CSS if() function #1045](https://github.com/w3ctag/design-reviews/issues/1045)
 - [Intent to Ship: Short-circuiting var(), attr()](https://groups.google.com/a/chromium.org/g/blink-dev/c/VqnJ6-4vGFs/m/OzblXmg7AAAJ)
@@ -38,7 +39,7 @@
 - [Chrome Status: CSS if() function](https://chromestatus.com/feature/6313805904347136?gate=5132766385274880)
 - [Chrome Intent to Prototype: CSS if() function](https://groups.google.com/a/chromium.org/g/blink-dev/c/ySEBHgVlhBM/m/zO5OcgtWEgAJ)
 - [if() in CSS combined with other modern stuff](https://x.com/ChallengesCss/status/1909713366278369785)
-- [Inline conditionals in CSS?](https://lea.verou.me/blog/2024/css-conditionals/)
+- [2024-06-18 — Inline conditionals in CSS?](https://lea.verou.me/blog/2024/css-conditionals/)
 - [[css-values-5] What is the MVP for inline conditionals on custom properties? #10064](https://github.com/w3c/csswg-drafts/issues/10064)
 
 > The major author pain point remains unsolved, and authors have to resort to HTML attributes instead (as explained in [#5624](https://github.com/w3c/csswg-drafts/issues/5624)).
