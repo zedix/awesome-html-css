@@ -1,5 +1,6 @@
 # CSS Mixins & Functions
 
+- [2025-08-13 — 5 Useful CSS functions using the new @function rule](https://una.im/5-css-functions/)
 - [2025-03-26 — CSS Mixins are ready for experimentation](https://nerdy.dev/css-mixins-ready-for-experimentation)
 - [Official spec](https://drafts.csswg.org/css-mixins/)
 - [Intent to Ship: CSS Custom Functions (@function)](https://groups.google.com/a/chromium.org/g/blink-dev/c/bvi4D7eD7wI/m/djYVLu6OAwAJ)

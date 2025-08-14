@@ -1,7 +1,7 @@
 # The `Customizable <select>` (ex `<selectlist>` ⇢ ex `<selectmenu>` ⇢ ex `<select> v2`)
 
 <img height="260" src="https://github.com/user-attachments/assets/28975bd5-5cbc-464d-8217-7479f271a317" />
-<img height="260" src="https://github.com/user-attachments/assets/9554f86c-7868-4db5-9e91-20b642f0bbca" />
+<img height="260" src="https://developer.chrome.com/static/blog/new-in-web-ui-io-2025-recap/image/select-layout_856.png" />
 
 
 - [2025-07-01 — Custom Select (that comes up from the bottom on mobile)](https://frontendmasters.com/blog/custom-select-that-comes-up-from-the-bottom-on-mobile/)
