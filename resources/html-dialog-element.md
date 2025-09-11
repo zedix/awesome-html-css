@@ -30,6 +30,21 @@ dialog::backdrop {
 }
 ```
 
+### `closed-by` attribute
+
+```html
+<!-- No user-triggered closing of dialogs -->
+<dialog closedby="none">
+
+<!-- User pressing ESC (and other close requests) closes dialog -->
+<dialog closedby="closerequest">
+
+<!-- User clicking outside the dialog or pressing ESC closes dialog -->
+<dialog closedby="any">
+```
+
+### Resources
+
 - [2024-11-14 — Have a dialog](https://nerdy.dev/have-a-dialog)
 - [2024-11-01 — Dialog light dismiss behavior: `closedby` attribute / `requestClose`](https://github.com/whatwg/html/pull/10737)
 - [2023-01-26 — Use the dialog element (reasonably)](https://www.scottohara.me/blog/2023/01/26/use-the-dialog-element.html)
@@ -42,3 +57,8 @@ dialog::backdrop {
 - [Entry/Exit <dialog> animation 2024](https://codepen.io/jh3y/pen/LYoZWmJ)
 
 <img src="https://web.dev/static/articles/building/a-dialog-component/image/screenshot-chrome-devtoo-cbb3686684fa1_856.png?hl=fr" height="420" />
+
+
+### Demos
+
+- [Flyout Dialog Side Panel](https://codepen.io/argyleink/pen/jOgxGmX)

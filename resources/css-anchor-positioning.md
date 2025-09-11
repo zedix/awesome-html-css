@@ -2,6 +2,7 @@
 
 <img src="https://github.com/zedix/awesome-html-css/assets/27975/ac8ba033-5070-41eb-9a56-2a9a11a5095a" width="420" />
 
+- [2025-08-28 — The Basics of Anchor Positioning](https://ishadeed.com/article/anchor-positioning/)
 - [2025-02-25 —  Better Anchor Positioning with position-area](https://www.oddbird.net/2025/02/25/anchor-position-area/)
 - [2024-11-18 — Anchor Positioning Is Disruptive](https://www.oddbird.net/2024/11/18/anchor-position-yearbook/)
 - [2024-02-09 — Editor’s Draft](https://drafts.csswg.org/css-anchor-position-1/)

@@ -1,5 +1,6 @@
 # CSS Carousel
 
+- [2025-08-14 — What's New in Web UI: I/O 2025 Recap](https://developer.chrome.com/blog/new-in-web-ui-io-2025-recap#carousels)
 - [CSS Carousel Gallery (Chrome 135)](https://chrome.dev/carousel/)
 - [CSS Carousel Configurator (Chrome 135)](https://chrome.dev/carousel-configurator/)
 

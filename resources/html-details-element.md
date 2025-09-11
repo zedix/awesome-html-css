@@ -45,6 +45,10 @@ details[open]::details-content {
 }
 ```
 
+## Demos
+
+- [Nice `<details>` accordion](https://codepen.io/argyleink/pen/MYYpVjJ)
+
 ## Accessibility
 
 - [Disallow interactive content in `<summary>`](https://github.com/whatwg/html/issues/2272)

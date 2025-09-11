@@ -90,6 +90,9 @@ calc(), var(), clamp(), fit-content(), repeat(), min(), max(), attr(), env(), co
 
 ## Resources
 
+- [2025-09-10 — 100+ CSS Features from the past ~5 years](https://nerdy.dev/cascading-secret-sauce)
+- [2025-09-04 — The Fundamentals of CSS Alignment](https://css-tip.com/explore/alignment/)
+- [2025-08-14 — Web UI: I/O 2025 Recap — The Future is Declarative](https://developer.chrome.com/blog/new-in-web-ui-io-2025-recap)
 - [2025-07-24 — It’s time for modern CSS to kill the SPA](https://www.jonoalderson.com/conjecture/its-time-for-modern-css-to-kill-the-spa/)
 - [2025-05-23 — What's new in web UI — GoogleIO 2025](https://io.google/2025/explore/pa-keynote-15)
 - [2025-05-12 — Just fucking use HTML](https://app.daily.dev/posts/nfbblnxfs)
@@ -102,6 +105,8 @@ calc(), var(), clamp(), fit-content(), repeat(), min(), max(), attr(), env(), co
 - [2024-12-31 — CSS Wrapped 2024](https://chrome.dev/css-wrapped-2024/)
 - [2024-02-01 — Interop 2024 Dashboard](https://webkit.org/blog/14955/the-web-just-gets-better-with-interop/)
 - [2023-12-31 — CSS Wrapped 2023](https://developer.chrome.com/blog/css-wrapped-2023)
+- [A better way to explore CSS](https://css-tip.com/explore/)
+- [Chrome Built-in AI APIs](https://developer.chrome.com/docs/ai/built-in-apis)
 - [News to the web platform](https://web.dev/blog)
 - [Better, Faster, Stronger Web UI](https://una.github.io/better-faster-stronger-web-ui/) by Una Kravets
 - [Modern CSS patterns in Campfire](https://dev.37signals.com/modern-css-patterns-and-techniques-in-campfire/)
