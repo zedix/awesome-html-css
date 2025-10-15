@@ -2,6 +2,8 @@
 
 <img src="https://github.com/zedix/awesome-html-css/assets/27975/ac8ba033-5070-41eb-9a56-2a9a11a5095a" width="420" />
 
+- [2025-10-06 — Dynamic Tooltip Position with Anchor Positioning](https://x.com/ChallengesCss/status/1975224873342677184)
+- [2025-10-04 — Dynamic anchor links (anchor + mix-blend-mode)](https://codepen.io/jh3y/pen/gbPgbqd)
 - [2025-08-28 — The Basics of Anchor Positioning](https://ishadeed.com/article/anchor-positioning/)
 - [2025-02-25 —  Better Anchor Positioning with position-area](https://www.oddbird.net/2025/02/25/anchor-position-area/)
 - [2024-11-18 — Anchor Positioning Is Disruptive](https://www.oddbird.net/2024/11/18/anchor-position-yearbook/)

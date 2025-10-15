@@ -11,6 +11,13 @@ ui-rating {
 }
 ```
 
+With the [ident() function](https://drafts.csswg.org/css-values-5/#funcdef-ident)
+
+```css
+--bg: attr(variant type(<custom-ident>));
+--background-color: ident("--c-tag-" var(--bg) "-bg");
+```
+
 - [2025-07-01 — This CSS Update Revolutionizes CSS For Me - attr() Function Update ](https://www.youtube.com/watch?v=WcNWf6edIcc)
 - [2025-04-03 — Exploring the modern attr() in CSS](https://ishadeed.com/article/modern-attr/)
 - [2025-03-25 — Custom progress element using attr()](https://css-tip.com/custom-progress/)

@@ -90,6 +90,7 @@ calc(), var(), clamp(), fit-content(), repeat(), min(), max(), attr(), env(), co
 
 ## Resources
 
+- [2025-09-12 — Why CSS is Now the Fastest-Moving Space in Web Development (with Una Kravets)](https://www.youtube.com/watch?v=ZuorSGOwpKk)
 - [2025-09-10 — 100+ CSS Features from the past ~5 years](https://nerdy.dev/cascading-secret-sauce)
 - [2025-09-04 — The Fundamentals of CSS Alignment](https://css-tip.com/explore/alignment/)
 - [2025-08-14 — Web UI: I/O 2025 Recap — The Future is Declarative](https://developer.chrome.com/blog/new-in-web-ui-io-2025-recap)
