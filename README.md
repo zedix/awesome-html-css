@@ -77,6 +77,7 @@
 - [CSS `color-mix()`](./resources/css-color-mix.md)
 - [CSS `if()` notation](./resources/css-if-notation.md)
 - [CSS `ident()`](./resources/css-ident.md)
+- [CSS `inherit()`](./resources/css-inherit.md)
 - [CSS `oklch()`](./resources/css-oklch.md)
 - [CSS `shape()`](./resources/css-shape.md)
 - [CSS `scroll-state()`](./resources/css-scroll-state.md)
