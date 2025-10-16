@@ -59,8 +59,13 @@
 
 ## CSS
 
-<img width="737" alt="image" src="https://github.com/user-attachments/assets/1c618833-e4e6-4ad8-ac83-7e43fe1c04e0" />
+### All CSS new features (87)
 
+- **At-Rules (14)**: `@container`, `@else`, `@function`, `@keyframes`, `@layer`, `@mixin`, `@position-try`, `@property`, `@scope`, `@starting-style`, `@supports`, `@view-transition`, `@when`
+- **Functions (27)**: `anchor()`, `attr()`, `circle()`, `clamp()`, `color(from)`, `color-mix()`, `contrast-color()`, `cos()`, `env()`, `fit-content()`, `if()`, `image-set()`, `inherit()`, `light-dark()`, `linear()`, `max()`, `min()`, `polygon()`, `random()`, `repeat()`, `scroll()`, `sibling-count()`, `sibling-index()`, `sin()`, `tan()`, `var()`, `view()`
+- **Properties (16)**: `accent-color`, `animation-composition`, `animation-range`, `animation-timeline`, `aspect-ratio`, `color-scheme`, `contain-intrinsic-size`, `container-type`, `content-visibility`, `font-palette`, `forced-color-adjust`, `interpolate-size`, `reading-flow`, `scroll-behavior`, `scrollbar-gutter`, `text-wrap`
+- **Pseudo Elements (18)**: `::backdrop`, `::checkmark`, `::column`, `::details-content`, `::grammar-error`, `::highlight()`, `::part()`, `::picker()`, `::picker-icon`, `::scroll-button()`, `::scroll-marker()`, `::slotted()`, `::spelling-error`, `::target-text`, `::view-transition-group()`, `::view-transition-image-pair()`, `::view-transition-new()`, `::view-transition-old()`
+- **Selectors (13)**: `:active-view-transition`, `:active-view-transition-type()`, `:focus-visible`, `:has()`, `:heading`, `:heading()`, `:is()`, `:popover-open`, `:scope`, `:state()`, `:target-current`, `:user-invalid`, `:user-valid`, `:where()`
 
 - [CSS View Transitions](./resources/css-views-transitions.md)
 - [CSS Anchor Positioning](./resources/css-anchor-positioning.md)
@@ -83,11 +88,6 @@
 - [CSS `scroll-state()`](./resources/css-scroll-state.md)
 - [CSS tips ✨](./resources/css-tips.md)
 
-
-
-```
-calc(), var(), clamp(), fit-content(), repeat(), min(), max(), attr(), env(), color(), rgb(), hsl(), oklch(), circle(), polygon(), url(), translate(), scale(), rotate(), matrix(), invert(), sin(), cos(), tan(), pow(), hypot(), log(), shape(), steps(), scroll(), scroll-state(), view()
-```
 
 ## Resources
 
