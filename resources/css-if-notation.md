@@ -47,14 +47,45 @@
 > The major author pain point remains unsolved, and authors have to resort to HTML attributes instead (as explained in [#5624](https://github.com/w3c/csswg-drafts/issues/5624)).
 
 
+## Examples
+
+### `style` condition
+
+[Demo](https://codepen.io/zedix/pen/ExqRdpa)
+
 ```css
-zx-tag {
+lx-badge {
   /* if(media(<media-condition>): foo; else: bar) */
   /* if(style(<style-query>): foo; else: bar) */
   /* if(<supports-condition>): foo; else: bar) */
-  background-color: if(
-    style(--variant: success): green;
-    else: white;
+  --color: 
+    if(
+     style(--variant: info): var(--l-color-text-info);
+     style(--variant: success): var(--l-color-text-success);
+     style(--variant: warning): var(--l-color-text-warning);
+     style(--variant: danger): var(--l-color-text-danger);
+     else: var(--l-color-text-neutral);
   );
+}
+```
+
+### `media` condition
+
+[Demo](https://codepen.io/una/pen/dPMMLox)
+
+```css
+.responsive-layout {
+  display: flex;
+  flex-direction: if(media(orientation: landscape): row; else: column);
+}
+```
+
+### `attr` condition
+
+[Demo](https://codepen.io/una/pen/PwNqMOB)
+
+```css
+.item {
+  background-color: if(style(attr(data-columns type(<integer>)) > 2): royalblue; else: dimgray);
 }
 ```
