@@ -1,5 +1,6 @@
 # CSS Mixins & Functions
 
+- [2025-10-05 — Useful CSS custom functions](https://github.com/sindresorhus/css-extras/blob/main/index.css)
 - [2025-09-30 — A custom --light-dark() function in CSS that works with any type of value (not just colors!) in just 3 LOC](https://www.bram.us/2025/09/30/css-custom-light-dark/)
 - [2025-08-13 — 5 Useful CSS functions using the new @function rule](https://una.im/5-css-functions/)
 - [2025-03-26 — CSS Mixins are ready for experimentation](https://nerdy.dev/css-mixins-ready-for-experimentation)

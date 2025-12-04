@@ -30,6 +30,8 @@
 - [The `switch` attribute](./resources/html-switch-attribute.md)
 - [The `CloseWatcher` api](./resources/html-closewatcher-api.md)
 - [The `Abort Controller` api](./resources/html-abort-controller.md)
+- [The `custom attributes`](./resources/html-custom-attributes.md)
+
 
 ## Following
 
@@ -78,6 +80,7 @@
 - [CSS `oklch()`](./resources/css-oklch.md)
 - [CSS `shape()`](./resources/css-shape.md)
 - [CSS `scroll-state()`](./resources/css-scroll-state.md)
+- [CSS `grid-lanes`](./resources/css-grid-lanes.md)
 - [CSS tips ✨](./resources/css-tips.md)
 
 ### All CSS new features (87)

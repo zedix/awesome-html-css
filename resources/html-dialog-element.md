@@ -59,6 +59,11 @@ dialog::backdrop {
 <img src="https://web.dev/static/articles/building/a-dialog-component/image/screenshot-chrome-devtoo-cbb3686684fa1_856.png?hl=fr" height="420" />
 
 
+### Antipatterns
+
+- [SmoothUI](https://smoothui.dev/docs/components/basic-modal)
+
+
 ### Demos
 
 - [Flyout Dialog Side Panel](https://codepen.io/argyleink/pen/jOgxGmX)

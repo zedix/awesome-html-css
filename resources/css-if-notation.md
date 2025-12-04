@@ -30,6 +30,8 @@
 
 ![image](https://github.com/user-attachments/assets/4ce69b88-3a55-4ddb-8232-814579b00864)
 
+
+- [2025-11-13 — The Range Syntax Has Come to Container Style Queries and if() ](https://css-tricks.com/the-range-syntax-has-come-to-container-style-queries-and-if/)
 - [2025-07-01 — CSS conditionals with the new if() function](https://developer.chrome.com/blog/if-article)
 - [CSS if() function & reading-flow (in Chrome 137)](https://www.youtube.com/watch?v=Apn8ucs7AL0&t=5s)
 - [CSS if() function #1045](https://github.com/w3ctag/design-reviews/issues/1045)
