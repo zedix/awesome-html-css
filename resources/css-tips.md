@@ -1,5 +1,12 @@
 # CSS Tips
 
+- [Header with _fill rest space_](https://bsky.app/profile/tolin.ski/post/3maed4k4ess2u)
+
+```css
+html, body { height: stretch }
+body { display: grid; grid-template-rows: auto 1fr; }
+```
+
 - [Safe/unsafe alignment in CSS flexbox](https://www.stefanjudis.com/today-i-learned/safe-unsafe-alignment-in-css-flexbox/)
 
 ```css

@@ -3,6 +3,7 @@
 - [Web Platform Explorer](https://web-platform-dx.github.io/web-features-explorer/)
 - [Web Platform Baseline](https://web.dev/baseline) + [Browserslist plugin](https://github.com/web-platform-dx/browserslist-config-baseline)
 - [Web Platform Status](https://webstatus.dev/)
+- [Chrome Platform Status Roadmap](https://chromestatus.com/roadmap)
 - [WebDX Community Group](https://web-platform-dx.github.io/web-features/webdx-cg/)
 - [Interop 2025](https://webkit.org/blog/16458/announcing-interop-2025/)
 
