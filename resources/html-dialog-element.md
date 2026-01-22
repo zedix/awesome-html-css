@@ -45,6 +45,9 @@ dialog::backdrop {
 
 ### Resources
 
+- [2025-12-09 — Discover Dialog](https://www.htmhell.dev/adventcalendar/2025/9/)
+- [2025-06-08 — Where to Put Focus When Opening a Modal Dialog](https://adrianroselli.com/2025/06/where-to-put-focus-when-opening-a-modal-dialog.html?Theme=Light)
+- [2025-10-23 — O dialog focus, where art thou?](https://www.matuzo.at/blog/2023/focus-dialog/)
 - [2024-11-14 — Have a dialog](https://nerdy.dev/have-a-dialog)
 - [2024-11-01 — Dialog light dismiss behavior: `closedby` attribute / `requestClose`](https://github.com/whatwg/html/pull/10737)
 - [2023-01-26 — Use the dialog element (reasonably)](https://www.scottohara.me/blog/2023/01/26/use-the-dialog-element.html)

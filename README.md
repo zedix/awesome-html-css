@@ -3,9 +3,10 @@
 - [Web Platform Explorer](https://web-platform-dx.github.io/web-features-explorer/)
 - [Web Platform Baseline](https://web.dev/baseline) + [Browserslist plugin](https://github.com/web-platform-dx/browserslist-config-baseline)
 - [Web Platform Status](https://webstatus.dev/)
-- [Chrome Platform Status Roadmap](https://chromestatus.com/roadmap)
 - [WebDX Community Group](https://web-platform-dx.github.io/web-features/webdx-cg/)
+- [WebDX Developer Signals](https://github.com/web-platform-dx/developer-signals/issues)
 - [Interop 2025](https://webkit.org/blog/16458/announcing-interop-2025/)
+- [Chrome Platform Status Roadmap](https://chromestatus.com/roadmap)
 
 > [!TIP]
 > Stop writing unnecessary, heavy, thread-blocking JavaScript — [Una Kravets](https://una.github.io/better-faster-stronger-web-ui/)
@@ -54,7 +55,7 @@
 - Custom elements (2): `<template>`, `<slot>`
 - Scripting (3): `<script>`, `<noscript>`,`<canvas>`
 - Experimental (1): `<portal>`
-- Proposed (-): [`<selectedcontent>`](https://una.im/select-updates/)
+- Proposed (-): `<selectedcontent>`, [`<geolocation>`](https://developer.chrome.com/blog/geolocation-html-element)
 
 > [!NOTE]
 > These last element landed in the HTML spec was the [`<search>`](https://www.scottohara.me/blog/2023/03/24/search-element.html) element, at March 24th 2023.
