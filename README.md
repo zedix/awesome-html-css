@@ -76,6 +76,7 @@
 - [CSS Scroll Animations](./resources/css-scroll-animations.md)
 - [CSS `attr()`](./resources/css-attr.md)
 - [CSS `color-mix()`](./resources/css-color-mix.md)
+- [CSS `corner-shape`](./resources/css-corner-shape.md)
 - [CSS `if()` notation](./resources/css-if-notation.md)
 - [CSS `ident()`](./resources/css-ident.md)
 - [CSS `inherit()`](./resources/css-inherit.md)
@@ -95,6 +96,7 @@
 
 ## Resources
 
+- [2025-12-08 — CSS Wrapped 2025](https://chrome.dev/css-wrapped-2025/)
 - [2025-09-12 — Why CSS is Now the Fastest-Moving Space in Web Development (with Una Kravets)](https://www.youtube.com/watch?v=ZuorSGOwpKk)
 - [2025-09-10 — 100+ CSS Features from the past ~5 years](https://nerdy.dev/cascading-secret-sauce)
 - [2025-09-04 — The Fundamentals of CSS Alignment](https://css-tip.com/explore/alignment/)
