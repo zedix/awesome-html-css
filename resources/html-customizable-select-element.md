@@ -93,3 +93,10 @@ select {
   </listbox>
 </select>
 ```
+
+
+## Mode `multiple`
+
+- [2026-01-15 —An update on customizable selects: the multiple select](https://utilitybend.com/blog/an-update-on-customizable-selects-the-multiple-select)
+- [Customizable select listbox #42358](https://github.com/mdn/content/issues/42358)
+    - [Customizable select listbox (Chrome 145+)](https://chromestatus.com/feature/6222145025867776?gate=5204361793503232)

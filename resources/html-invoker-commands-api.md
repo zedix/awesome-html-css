@@ -15,6 +15,7 @@ New syntax:
 </div>
 ```
 
+- [2026-01-27 — More invoker commands, and more reasons not to use JavaScript please](https://pawelgrzybek.com/more-invoker-commands-and-more-reasons-not-to-use-javascript-please/)
 - [2025-03-07 — Introducing command and commandfor](https://developer.chrome.com/blog/command-and-commandfor)
 - [2025-02-19 — HTML Spec (merged)](https://html.spec.whatwg.org/multipage/form-elements.html#invoker-command-steps)
 - [2024-07-15 — An update on invokers: Invoker commands in HTML](https://utilitybend.com/blog/an-update-on-invokers-invoker-commands-in-html)
