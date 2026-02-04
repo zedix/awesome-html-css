@@ -3,7 +3,8 @@
 <img height="260" src="https://github.com/user-attachments/assets/28975bd5-5cbc-464d-8217-7479f271a317" />
 <img height="260" src="https://developer.chrome.com/static/blog/new-in-web-ui-io-2025-recap/image/select-layout_856.png" />
 
-
+- [2026-02-03 — Nice Select-05 —](https://nerdy.dev/nice-select)
+- [2025-07-05 — custom <select> with CSS 🧑‍🍳](https://x.com/jh3yy/status/1941272674464039232?s=20)
 - [2025-07-01 — Custom Select (that comes up from the bottom on mobile)](https://frontendmasters.com/blog/custom-select-that-comes-up-from-the-bottom-on-mobile/)
 - [2025-03-24 — The `<select>` element can now be customized with CSS (Chrome 135)](https://developer.chrome.com/blog/a-customizable-select?hl=en)
 - [2025-03-15 — The customizable select - Part one: history, trickery, and styling the select with CSS](https://utilitybend.com/blog/the-customizable-select-part-one-history-trickery-and-styling-the-select-with-css)
