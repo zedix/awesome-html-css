@@ -2,6 +2,7 @@
 
 <img src="https://github.com/zedix/awesome-html-css/assets/27975/ac8ba033-5070-41eb-9a56-2a9a11a5095a" width="420" />
 
+- [2026-02-19 — Why is Anchor Positioning not working?](https://css-tip.com/anchor-issues/)
 - [2025-10-06 — Dynamic Tooltip Position with Anchor Positioning](https://x.com/ChallengesCss/status/1975224873342677184)
 - [2025-10-04 — Dynamic anchor links (anchor + mix-blend-mode)](https://codepen.io/jh3y/pen/gbPgbqd)
 - [2025-08-28 — The Basics of Anchor Positioning](https://ishadeed.com/article/anchor-positioning/)

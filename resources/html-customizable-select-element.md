@@ -8,7 +8,7 @@
 - [2025-07-01 — Custom Select (that comes up from the bottom on mobile)](https://frontendmasters.com/blog/custom-select-that-comes-up-from-the-bottom-on-mobile/)
 - [2025-03-24 — The `<select>` element can now be customized with CSS (Chrome 135)](https://developer.chrome.com/blog/a-customizable-select?hl=en)
 - [2025-03-15 — The customizable select - Part one: history, trickery, and styling the select with CSS](https://utilitybend.com/blog/the-customizable-select-part-one-history-trickery-and-styling-the-select-with-css)
-- [2025-03-10 —Future of CSS: Select styling without the hacks
+- [2025-03-10 — Future of CSS: Select styling without the hacks
 ](https://dev.to/link2twenty/future-of-css-select-styling-without-the-hacks-38c2)
 - [2025-01-10 — Updates to the customizable select API](https://una.im/select-updates/)
 - [2024-12-03 — 2025 gonna be the year of customized `<select>`](https://x.com/wesbos/status/1863977220110217250)

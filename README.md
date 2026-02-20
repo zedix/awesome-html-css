@@ -5,7 +5,7 @@
 - [Web Platform Status](https://webstatus.dev/)
 - [WebDX Community Group](https://web-platform-dx.github.io/web-features/webdx-cg/)
 - [WebDX Developer Signals](https://github.com/web-platform-dx/developer-signals/issues)
-- [Interop 2025](https://webkit.org/blog/16458/announcing-interop-2025/)
+- [Interop 2026](https://webkit.org/blog/17818/announcing-interop-2026/) / [Dashboard](https://wpt.fyi/interop-2026) (previous: [2025](https://webkit.org/blog/16458/announcing-interop-2025/), [2024](https://webkit.org/blog/14955/the-web-just-gets-better-with-interop/))
 - [Chrome Platform Status Roadmap](https://chromestatus.com/roadmap)
 
 > [!TIP]
@@ -113,7 +113,6 @@
 - [2024-12-19 — CSS box-decoration-break](https://12daysofweb.dev/2024/css-box-decoration-break/)
 - [2024-12-31 — New Front-End Features In 2025](https://www.smashingmagazine.com/2024/12/new-front-end-features-for-designers-in-2025/)
 - [2024-12-31 — CSS Wrapped 2024](https://chrome.dev/css-wrapped-2024/)
-- [2024-02-01 — Interop 2024 Dashboard](https://webkit.org/blog/14955/the-web-just-gets-better-with-interop/)
 - [2023-12-31 — CSS Wrapped 2023](https://developer.chrome.com/blog/css-wrapped-2023)
 - [A better way to explore CSS](https://css-tip.com/explore/)
 - [Chrome Built-in AI APIs](https://developer.chrome.com/docs/ai/built-in-apis)
