@@ -97,6 +97,16 @@
 
 ## Resources
 
+- [Modern CSS](https://modern-css.com/)
+- [Adam Argyle blog](https://nerdy.dev/)
+- [CSS Tips](https://css-tip.com/)
+- [News to the web platform](https://web.dev/blog)
+- [A better way to explore CSS](https://css-tip.com/explore/)
+- [Chrome Built-in AI APIs](https://developer.chrome.com/docs/ai/built-in-apis)
+
+## Articles
+
+- [2026-02-26 — Goodbye innerHTML, Hello setHTML](https://hacks.mozilla.org/2026/02/goodbye-innerhtml-hello-sethtml-stronger-xss-protection-in-firefox-148/)
 - [2026-01-27 — Try text scaling support in Chrome Canary](https://www.joshtumath.uk/posts/2026-01-27-try-text-scaling-support-in-chrome-canary/)
 - [2025-12-08 — CSS Wrapped 2025](https://chrome.dev/css-wrapped-2025/)
 - [2025-09-12 — Why CSS is Now the Fastest-Moving Space in Web Development (with Una Kravets)](https://www.youtube.com/watch?v=ZuorSGOwpKk)
@@ -113,16 +123,11 @@
 - [2024-12-19 — CSS box-decoration-break](https://12daysofweb.dev/2024/css-box-decoration-break/)
 - [2024-12-31 — New Front-End Features In 2025](https://www.smashingmagazine.com/2024/12/new-front-end-features-for-designers-in-2025/)
 - [2024-12-31 — CSS Wrapped 2024](https://chrome.dev/css-wrapped-2024/)
+- [2024-05-16 — The latest in Web UI (Google I/O ‘24)](https://www.youtube.com/watch?v=_-6LgEjEyzE)
+- [2024-04-15 — Better, Faster, Stronger Web UI](https://una.github.io/better-faster-stronger-web-ui/) by Una Kravets
+- [2024-04-04 — Modern CSS patterns in Campfire](https://dev.37signals.com/modern-css-patterns-and-techniques-in-campfire/)
 - [2023-12-31 — CSS Wrapped 2023](https://developer.chrome.com/blog/css-wrapped-2023)
-- [A better way to explore CSS](https://css-tip.com/explore/)
-- [Chrome Built-in AI APIs](https://developer.chrome.com/docs/ai/built-in-apis)
-- [News to the web platform](https://web.dev/blog)
-- [Better, Faster, Stronger Web UI](https://una.github.io/better-faster-stronger-web-ui/) by Una Kravets
-- [Modern CSS patterns in Campfire](https://dev.37signals.com/modern-css-patterns-and-techniques-in-campfire/)
-- [Write better CSS with modern CSS](https://css-tip.com/better-modern-css/)
-- [The latest in Web UI (Google I/O ‘24)](https://www.youtube.com/watch?v=_-6LgEjEyzE)
-- [Adam Argyle blog](https://nerdy.dev/)
-- [CSS Tips](https://css-tip.com/)
+
 
 ### HTML over the wire (instead of JSON)
 
