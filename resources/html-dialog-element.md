@@ -62,6 +62,10 @@ dialog::backdrop {
 
 <img src="https://web.dev/static/articles/building/a-dialog-component/image/screenshot-chrome-devtoo-cbb3686684fa1_856.png?hl=fr" height="420" />
 
+## Gotchas
+
+- [2026-02-27 — Is `<dialog>` a good fit?](https://github.com/adobe/react-spectrum/discussions/9696#discussioncomment-15942257)
+- [2025-02-18 — Dialogs, Popovers & the Top Layer Mess ](https://dev.to/link2twenty/dialogs-popovers-the-top-layer-mess-27li)
 
 ### Antipatterns
 
