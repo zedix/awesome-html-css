@@ -11,6 +11,7 @@
 }
 ```
 
+- [CSS corner-shape generator](https://www.corner-shape.com/)
 - [2026-01-26 — Making interesting borders with CSS corner-shape](https://cassidoo.co/post/css-corner-shape/)
 - [2026-01-26 — The new corner-shape CSS property unlocks exciting new UI patterns](https://x.com/diegohaz/status/2016364636875186658?s=20)
 - [2025-12-02 — Gallery of Skewed Images with Hover Effect](https://css-tip.com/skewed-images/)

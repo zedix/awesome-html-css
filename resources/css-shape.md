@@ -9,7 +9,7 @@ clip-path: shape(from right center,
     line to right center);
 ```
 
-- [CSS Generators - A Polygon shape with clip-path](https://css-generators.com/polygon-shape/)
+- [CSS Generators - A Polygon shape with clip-path](https://css-generators.com/svg-to-css/)
 - [2025-04-29 — Blob shape with hover effect](https://css-tip.com/blob-hover/)
 - [2025-04-17 — Polygon shapes with rounded corners](https://css-tip.com/rounded-polygon/)
 - [2025-04-15 — The CSS `shape()` function](https://webkit.org/blog/16794/the-css-shape-function/)

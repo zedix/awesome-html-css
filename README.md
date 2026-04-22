@@ -106,6 +106,7 @@
 
 ## Articles
 
+- [2026-03-24 — The Great CSS Expansion](https://frontendfoc.us/link/182752/dafe780661)
 - [2026-02-26 — Goodbye innerHTML, Hello setHTML](https://hacks.mozilla.org/2026/02/goodbye-innerhtml-hello-sethtml-stronger-xss-protection-in-firefox-148/)
 - [2026-01-27 — Try text scaling support in Chrome Canary](https://www.joshtumath.uk/posts/2026-01-27-try-text-scaling-support-in-chrome-canary/)
 - [2025-12-08 — CSS Wrapped 2025](https://chrome.dev/css-wrapped-2025/)
