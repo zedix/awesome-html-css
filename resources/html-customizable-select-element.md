@@ -3,6 +3,8 @@
 <img height="260" src="https://github.com/user-attachments/assets/28975bd5-5cbc-464d-8217-7479f271a317" />
 <img height="260" src="https://developer.chrome.com/static/blog/new-in-web-ui-io-2025-recap/image/select-layout_856.png" />
 
+- [2026-06-29 — The Goldilocks customizable select height](https://jakearchibald.com/2026/goldilocks-select-height/)
+- [2026-07-14 — Filterable select](https://x.com/JosephArhar/status/2077060267192799277?s=20)
 - [2026-03-11 — Abusing Customizable Selects ](https://css-tricks.com/abusing-customizable-selects/)
 - [2026-03-03 — 2026 F1 Drivers Custom Select demo](https://codepen.io/editor/cbolson/pen/019cbfe5-85da-7d31-a7de-44b6b35e7c1)
 - [2026-02-03 — Nice Select](https://nerdy.dev/nice-select)

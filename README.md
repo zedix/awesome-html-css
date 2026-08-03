@@ -55,7 +55,7 @@
 - Custom elements (2): `<template>`, `<slot>`
 - Scripting (3): `<script>`, `<noscript>`,`<canvas>`
 - Experimental (1): `<portal>`
-- Proposed (-): `<selectedcontent>`, [`<geolocation>`](https://developer.chrome.com/blog/geolocation-html-element)
+- Proposed (-): `<selectedcontent>`, [`<geolocation>`](https://developer.chrome.com/blog/geolocation-html-element), [`<usermedia>`](https://developer.chrome.com/blog/usermedia-html-element)
 
 > [!NOTE]
 > These last element landed in the HTML spec was the [`<search>`](https://www.scottohara.me/blog/2023/03/24/search-element.html) element, at March 24th 2023.
