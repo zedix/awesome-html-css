@@ -3,6 +3,7 @@
 <img height="260" src="https://github.com/user-attachments/assets/28975bd5-5cbc-464d-8217-7479f271a317" />
 <img height="260" src="https://developer.chrome.com/static/blog/new-in-web-ui-io-2025-recap/image/select-layout_856.png" />
 
+- [2026-07-13 — Better default sizing for custom select?](https://github.com/w3c/csswg-drafts/issues/14172)
 - [2026-06-29 — The Goldilocks customizable select height](https://jakearchibald.com/2026/goldilocks-select-height/)
 - [2026-07-14 — Filterable select](https://x.com/JosephArhar/status/2077060267192799277?s=20)
 - [2026-03-11 — Abusing Customizable Selects ](https://css-tricks.com/abusing-customizable-selects/)

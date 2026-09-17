@@ -40,7 +40,7 @@
 - [Proposal: Customized built-in elements via elementInternals.type](https://github.com/whatwg/html/issues/11061)
 - [Proposal: Custom attributes for all elements](https://github.com/WICG/webcomponents/issues/1029)
 
-### All HTML elements (115)
+### All HTML elements (116)
 
 - Document element (1): `<html>`
 - Document metadata (6): `<head>`, `<title>`, `<base>`, `<link>`, `<meta>`, `<style>`,
@@ -50,12 +50,11 @@
 - Edits (2): `<ins>`, `<del>`
 - Embedded content (13): `<picture>`, `<source>`, `<img>`, `<iframe>`, `<embed>`, `<object>`, `<video>`, `<audio>`, `<track>`, `<map>`, `<area>`, `<math>`, `<svg>`
 - Tabular data (10): `<table>`, `<caption>`, `<colgroup>`, `<col>`, `<tbody>`, `<thead>`, `<tfoot>`, `<tr>`, `<td>`, `<th>`
-- Forms (14): `<form>`, `<label>`, `<input>`, `<button>`, `<select>`, `<datalist>`, `<optgroup>`, `<option>`, `<textarea>`, `<output>`, `<progress>`, `<meter>`, `<fieldset>`, `<legend>`
+- Forms (15): `<form>`, `<label>`, `<input>`, `<button>`, `<select>`, `<selectedcontent>`, `<datalist>`, `<optgroup>`, `<option>`, `<textarea>`, `<output>`, `<progress>`, `<meter>`, `<fieldset>`, `<legend>`
 - Interactive elements (3): [`<details>`](https://html.spec.whatwg.org/multipage/interactive-elements.html#the-details-element), `<summary>`, [`<dialog>`](https://html.spec.whatwg.org/multipage/interactive-elements.html#the-dialog-element)
 - Custom elements (2): `<template>`, `<slot>`
 - Scripting (3): `<script>`, `<noscript>`,`<canvas>`
-- Experimental (1): `<portal>`
-- Proposed (-): `<selectedcontent>`, [`<geolocation>`](https://developer.chrome.com/blog/geolocation-html-element), [`<usermedia>`](https://developer.chrome.com/blog/usermedia-html-element)
+- Capability elements 🧪 (-): [`<geolocation>`](https://developer.chrome.com/blog/geolocation-html-element), [`<usermedia>`](https://developer.chrome.com/blog/usermedia-html-element), [`<camera>`](https://developer.chrome.com/blog/new-in-chrome-153#capability-elements), [`<microphone>`](https://developer.chrome.com/blog/new-in-chrome-153#capability-elements)
 
 > [!NOTE]
 > These last element landed in the HTML spec was the [`<search>`](https://www.scottohara.me/blog/2023/03/24/search-element.html) element, at March 24th 2023.
